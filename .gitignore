@@ -23,7 +23,7 @@ ehthumbs_vista.db
 
 cobertura.xml
 # End of https://www.gitignore.io/api/macos,linux,windows,vapor
-
+build/
 node_modules/
 *.swp
 yarn-error.log
