@@ -1,20 +1,15 @@
 import './App.css';
 import { Outlet, Link } from "react-router-dom";
 
+import Menu from './components/menu/Menu';
+import Footer from './components/footer/Footer';
+
 function App() {
   return (
     <div>
-      <h1>Bookkeeper!!!Ooo</h1>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem"
-        }}
-      >
-        <Link to="/invoices">Invoices</Link> |{" "}
-        <Link to="/expenses">Expenses</Link>
-      </nav>
-      <Outlet />
+      <Menu />
+        <Outlet /> 
+      <Footer />
     </div>
   );
 }
