@@ -1,0 +1,45 @@
+.menu-container{
+    @apply
+    border
+    border-black
+    py-4
+    flex
+    justify-center
+}
+
+.menu-container-content{
+    @apply
+    w-[1330px]
+    mx-4
+    flex
+    flex-row
+    laptop:justify-between
+    desktop:justify-between
+    justify-center
+}
+
+.items-container{
+    @apply
+    flex
+    flex-row
+    gap-8
+}
+
+.text-style-items{
+    @apply
+    text-gray-700
+    hover:text-gray-900
+    cursor-default
+    hidden
+    tablet:hidden
+    laptop:block
+    desktop:block
+}
+
+.logo-container{
+    background:url('img/DEREVYANSKAYA.svg') no-repeat -1px;
+
+    @apply
+    w-[215px]
+    h-[23px]
+}
