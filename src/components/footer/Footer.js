@@ -4,7 +4,7 @@ function Footer(){
 
     return(
 
-        <div>
+        <div className=" h-[475px] bg-[#525862] ">
          <p>Footer</p>
         </div>
        

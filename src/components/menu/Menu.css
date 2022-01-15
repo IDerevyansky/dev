@@ -1,10 +1,10 @@
 .menu-container{
     @apply
-    border
-    border-black
     py-4
     flex
     justify-center
+    fixed top-0 left-0 right-0
+    z-50
 }
 
 .menu-container-content{
@@ -42,4 +42,14 @@
     @apply
     w-[215px]
     h-[23px]
+}
+
+.menu-gradient{
+    @apply
+    w-[100%]
+    h-[200px]
+    top-0
+    absolute
+    -z-50
+    bg-gradient-to-b from-[#F7F5EF]
 }

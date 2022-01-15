@@ -7,6 +7,7 @@ function Menu(){
     return(
 
         <div className="menu-container">
+            
             <div className="menu-container-content">
 
                 <div className="logo-container"></div>
@@ -19,7 +20,10 @@ function Menu(){
                     <p className="text-style-items">item</p>
                 </div>
 
-            </div>    
+            </div>   
+
+            <div className="menu-gradient"></div>  
+
         </div>
        
     );
