@@ -53,3 +53,31 @@
     -z-50
     bg-gradient-to-b from-[#F7F5EF]
 }
+
+.burger{
+    background: url('img/burder.svg') no-repeat 0px 50%;
+
+    @apply
+    w-[24px]
+    h-[24px]
+    hidden
+    tablet:hidden
+    laptop:block
+    desktop:block
+}
+
+.cross{
+    background: url('img/cross.svg') no-repeat 0px 50%;
+
+    @apply
+    w-[24px]
+    h-[24px]
+    hidden
+    tablet:hidden
+    laptop:block
+    desktop:block
+}
+
+.interactive-item{
+    visibility:hidden;
+}
