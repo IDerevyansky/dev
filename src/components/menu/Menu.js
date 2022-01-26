@@ -48,16 +48,16 @@ function Menu(){
             if(offset > 0 && memory <= offset){
                 memory = offset;
                 // console.log('Down');
-                menuContainer[0].style.top = memory;
-                menuContainer[0].style.position = 'fixed';
+                // menuContainer[0].style.top = memory;
+                // menuContainer[0].style.position = 'fixed';
                 contentBlock[0].style.display = 'none';
                 btnBlock[0].style.display = 'flex';
 
             }else{
                 memory = offset;
                 // console.log('Up');
-                menuContainer[0].style.top = memory;
-                menuContainer[0].style.position = 'fixed';
+                // menuContainer[0].style.top = memory;
+                // menuContainer[0].style.position = 'fixed';
                 contentBlock[0].style.display = 'flex';
                 btnBlock[0].style.display = 'none';
 
