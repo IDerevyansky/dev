@@ -1,9 +1,10 @@
+
 .menu-container{
     @apply
     py-4
     flex
     justify-center
-    fixed top-0 left-0 right-0
+    absolute top-0 left-0 right-0
     z-50
 }
 
@@ -80,4 +81,13 @@
 
 .interactive-item{
     visibility:hidden;
+}
+
+
+.items-content{
+    @apply
+    hidden
+    tablet:hidden
+    laptop:flex
+    desktop:flex
 }

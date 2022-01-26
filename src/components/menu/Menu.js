@@ -8,30 +8,65 @@ function Menu(){
     const [iconMenu, setIconMenu] = useState('burger');
 
     let data = ['item1', 'item2', 'item3', 'item4', 'item5'];
+    let items = data.map((item, key, arr) => <p key={key} className="text-style-items">{item}</p> );
 
-    let items = data.map((item, key, arr)=> <p key={key} className="text-style-items">{item}</p> );
+    // let toggle = () => {iconMenu == 'burger'?setIconMenu('cross'):setIconMenu('burger')};
+   
 
-    let toggle = () => {iconMenu == 'burger'?setIconMenu('cross'):setIconMenu('burger');};
+    let toggle = () => {
 
+        if(iconMenu === 'burger'){
+            setIconMenu('cross');
+            // setItem_(items);
+        }else{
+            setIconMenu('burger');
+            // setItem_(btnBlock);
+        }
 
+    }
 
 
     useEffect(()=>{
         
-        let interactiveMenu = () => {
+        let memory = 0;
 
-            let interactiveItem = document.getElementsByClassName('interactive-item');
-            let offset = window.pageYOffset >= 56?true:false;
-            interactiveItem[0].style.visibility = offset?'visible':'hidden';
-            //Скрыть Items при скроле вниз
-            //Показать блок с кнопками при скроле вниз.
-            //При клике на гамбургер показать items скрыть блок с кнопками, при клике снова вывести блок скнопками 
-            //При скроле к верху страницы тор 0px опять вывести   
+        let menuContainer = document.getElementsByClassName('menu-container');
+        let contentBlock = document.getElementsByClassName('content-block');
+        let btnBlock = document.getElementsByClassName('btn-block');
+
+        contentBlock[0].style.display = 'flex';
+        btnBlock[0].style.display = 'none';
+
+
+        let OffsetMenu = () => {
+
+            // let interactiveItem = document.getElementsByClassName('interactive-item');
+            // interactiveItem[0].style.visibility = offset?'visible':'hidden';
+            let offset = window.scrollY || document.documentElement.scrollTop;
+
+
+            if(offset > 0 && memory <= offset){
+                memory = offset;
+                // console.log('Down');
+                menuContainer[0].style.top = memory;
+                menuContainer[0].style.position = 'fixed';
+                contentBlock[0].style.display = 'none';
+                btnBlock[0].style.display = 'flex';
+
+            }else{
+                memory = offset;
+                // console.log('Up');
+                menuContainer[0].style.top = memory;
+                menuContainer[0].style.position = 'fixed';
+                contentBlock[0].style.display = 'flex';
+                btnBlock[0].style.display = 'none';
+
+            }
 
 
         };
 
-        window.addEventListener(  'scroll', () => interactiveMenu() );
+        window.addEventListener( 'scroll', () => OffsetMenu() );
 
     });
 
@@ -45,13 +80,23 @@ function Menu(){
 
                 <div className="logo-container"></div>
 
-                <div className="items-container">
+                <div className="items-content">
 
-                    {items}
+                    <div className="items-container content-block">
 
-                    <div onClick={toggle} className={iconMenu+" "+"interactive-item"}></div>
+                        {items}
+
+                    </div>
+
+                    <div className="items-container btn-block">
+
+                        {'btn'}
+
+                    </div>  
 
                 </div>
+
+        
 
             </div>   
 
