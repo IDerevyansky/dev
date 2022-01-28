@@ -1,0 +1,33 @@
+.contaoner-callback{
+    @apply
+    flex
+    flex-grow
+    gap-6
+}
+
+.Side{
+    @apply
+    flex
+    flex-grow
+    gap-3
+}
+
+.left{
+
+}
+
+.right{
+
+}
+
+.center{
+    @apply
+    border-l-[1px]
+    border-[#D7D8D9]
+}
+
+.btn{
+    @apply
+    opacity-100
+    hover:opacity-80
+}

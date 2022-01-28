@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import CallBack from "../callBalck/callBack";
 
 import './Menu.css';
 
@@ -90,7 +91,7 @@ function Menu(){
 
                     <div className="items-container btn-block">
 
-                        {'btn'}
+                        <CallBack/>
 
                     </div>  
 
