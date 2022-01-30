@@ -5,7 +5,7 @@
     flex
     justify-center
     fixed top-0 left-0 right-0
-    z-50
+    z-0
 }
 
 .menu-container-content{
@@ -84,8 +84,22 @@
     desktop:flex
 }
 
+.blurBox{
+    background: rgba(196, 196, 196, 0.5);
+    backdrop-filter: blur(10px);
+
+    @apply
+    z-50
+    w-[100vw]
+    h-[100vh]
+    /* absolute */
+    fixed
+}
+
 .container-mobile_menu{
     @apply
+    w-[100%]
+    z-50
     fixed
     flex
     desktop:hidden
@@ -93,13 +107,11 @@
     tablet:flex
     justify-center
     bottom-0
-    w-[100%]
 }
 
 .box_mobile_menu{
     @apply
     w-[1330px]
-    h-[100%]
     p-[16px]
 }
 
@@ -119,6 +131,8 @@
     flex
     flex-row
     float-right
+    gap-[24px]
+    mt-[24px]
 }
 
 .shadow{
@@ -142,7 +156,7 @@
 }
 
 .mobile_menu{
-    animation: pulse 2s ;
+    animation: pulse 1s ;
 
     @apply
     w-[51px]
@@ -163,11 +177,6 @@
     }
   }
 
-.footer_mobile_menu{
-    @apply
-    gap-[24px]
-    mt-[24px]
-}
 
 .menu_visible{
     @apply

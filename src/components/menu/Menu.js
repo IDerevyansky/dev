@@ -17,9 +17,11 @@ function Menu(){
         if(iconMenu === 'burger'){
             setIconMenu('cross');
             setVisibleMenu('menu_visible');
+            document.body.style.position = 'fixed';
         }else{
             setIconMenu('burger');
             setVisibleMenu('menu_hidden');
+            document.body.style.position = 'relative';
         }
 
     };
@@ -108,7 +110,18 @@ function Menu(){
 
             </div>
 
+
+
+
+
+
+
+
+
+        <div onClick={() => toggle()} className={visibleMenu+" "+"blurBox"}></div>
+
             <div className="container-mobile_menu">
+
                 <div className="box_mobile_menu">
 
                     <div className={visibleMenu+" "+"mobile_items-content shadow"}>
@@ -125,7 +138,17 @@ function Menu(){
                     </div>
                     
                 </div>
+
             </div>
+
+
+
+
+
+
+
+
+
 
         </>
        
