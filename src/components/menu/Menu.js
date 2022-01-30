@@ -8,6 +8,7 @@ function Menu(){
 
     const [iconMenu, setIconMenu] = useState('burger');
     const [visibleMenu, setVisibleMenu] = useState('menu_hidden');
+    const [BlurOffset, setBlurOffset] = useState(0);
 
     let data = ['item1', 'item2', 'item3', 'item4', 'item5'];
     let items = data.map((item, key, arr) => <p key={key} className="text-style-items">{item}</p> );
@@ -17,6 +18,7 @@ function Menu(){
         if(iconMenu === 'burger'){
             setIconMenu('cross');
             setVisibleMenu('menu_visible');
+            setBlurOffset(window.scrollY || document.documentElement.scrollTop)
             document.body.style.position = 'fixed';
         }else{
             setIconMenu('burger');
@@ -33,7 +35,6 @@ function Menu(){
         
         let memory = 0;
 
-        let menuContainer = document.getElementsByClassName('menu-container');
         let contentBlock = document.getElementsByClassName('content-block');
         let btnBlock = document.getElementsByClassName('btn-block');
 
