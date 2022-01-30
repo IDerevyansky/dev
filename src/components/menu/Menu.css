@@ -31,8 +31,8 @@
     text-gray-700
     hover:text-gray-900
     cursor-default
-    hidden
-    tablet:hidden
+    /* hidden */
+    /* tablet:hidden */
     laptop:block
     desktop:block
 }
@@ -56,27 +56,19 @@
 }
 
 .burger{
-    background: url('img/burder.svg') no-repeat 0px 50%;
+    background: url('img/burger.svg') no-repeat 50% 50%;
 
     @apply
     w-[24px]
     h-[24px]
-    hidden
-    tablet:hidden
-    laptop:block
-    desktop:block
 }
 
 .cross{
-    background: url('img/cross.svg') no-repeat 0px 50%;
+    background: url('img/cross.svg') no-repeat 50% 50%;
 
     @apply
     w-[24px]
     h-[24px]
-    hidden
-    tablet:hidden
-    laptop:block
-    desktop:block
 }
 
 .interactive-item{
@@ -90,4 +82,100 @@
     tablet:hidden
     laptop:flex
     desktop:flex
+}
+
+.container-mobile_menu{
+    @apply
+    fixed
+    flex
+    desktop:hidden
+    laptop:hidden
+    tablet:flex
+    justify-center
+    bottom-0
+    w-[100%]
+}
+
+.box_mobile_menu{
+    @apply
+    w-[1330px]
+    h-[100%]
+    p-[16px]
+}
+
+.mobile_items-content{
+    @apply
+    text-right
+    bg-[#F5F3ED]
+    rounded-[24px]
+    p-[24px]
+    gap-[8px]
+
+}
+
+
+.footer_mobile_menu{
+    @apply
+    flex
+    flex-row
+    float-right
+}
+
+.shadow{
+    @apply
+    drop-shadow-me-shadow
+    bg-[#F5F3ED]
+}
+
+.button{
+    @apply
+    h-[0%]
+    bg-[#F5F3ED]
+    rounded-[24px]
+    py-[13px]
+    px-[48px]
+    text-[16px]
+    uppercase
+    font-medium
+    text-gray-700
+    hover:text-gray-900
+}
+
+.mobile_menu{
+    animation: pulse 2s ;
+
+    @apply
+    w-[51px]
+    h-[51px]
+    rounded-[99px]
+}
+
+@keyframes pulse {
+    0% {
+    @apply
+    -mb-48
+    opacity-0
+    }
+    100% {
+    @apply
+    mb-0
+    opacity-100
+    }
+  }
+
+.footer_mobile_menu{
+    @apply
+    gap-[24px]
+    mt-[24px]
+}
+
+.menu_visible{
+    @apply
+    flex
+    flex-col
+}
+
+.menu_hidden{
+    @apply
+    hidden
 }

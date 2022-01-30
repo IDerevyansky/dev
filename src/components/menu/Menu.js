@@ -7,24 +7,24 @@ import './Menu.css';
 function Menu(){
 
     const [iconMenu, setIconMenu] = useState('burger');
+    const [visibleMenu, setVisibleMenu] = useState('menu_hidden');
 
     let data = ['item1', 'item2', 'item3', 'item4', 'item5'];
     let items = data.map((item, key, arr) => <p key={key} className="text-style-items">{item}</p> );
-
-    // let toggle = () => {iconMenu == 'burger'?setIconMenu('cross'):setIconMenu('burger')};
-   
 
     let toggle = () => {
 
         if(iconMenu === 'burger'){
             setIconMenu('cross');
-            // setItem_(items);
+            setVisibleMenu('menu_visible');
         }else{
             setIconMenu('burger');
-            // setItem_(btnBlock);
+            setVisibleMenu('menu_hidden');
         }
 
-    }
+    };
+   
+
 
 
     useEffect(()=>{
@@ -43,6 +43,7 @@ function Menu(){
 
             // let interactiveItem = document.getElementsByClassName('interactive-item');
             // interactiveItem[0].style.visibility = offset?'visible':'hidden';
+
             let offset = window.scrollY || document.documentElement.scrollTop;
 
 
@@ -75,35 +76,58 @@ function Menu(){
 
     return(
 
-        <div className="menu-container">
+        <>
 
-            <div className="menu-container-content">
+            <div className="menu-container">
 
-                <div className="logo-container"></div>
+                <div className="menu-container-content">
 
-                <div className="items-content">
+                    <div className="logo-container"></div>
 
-                    <div className="items-container content-block">
+                    <div className="items-content">
 
-                        {items}
+                        <div className="items-container content-block">
+
+                            {items}
+
+                        </div>
+
+                        <div className="items-container btn-block">
+
+                            <CallBack/>
+
+                        </div>  
 
                     </div>
 
-                    <div className="items-container btn-block">
+            
 
-                        <CallBack/>
+                </div>   
 
-                    </div>  
+                <div className="menu-gradient"></div>  
 
+            </div>
+
+            <div className="container-mobile_menu">
+                <div className="box_mobile_menu">
+
+                    <div className={visibleMenu+" "+"mobile_items-content shadow"}>
+
+                        {items}
+
+                    </div>   
+
+                    <div className="footer_mobile_menu">
+
+                        <div className={visibleMenu+" "+"button shadow"}>Записаться</div>
+                        <div onClick={() => toggle()} className={iconMenu+" "+"mobile_menu shadow"}></div>
+
+                    </div>
+                    
                 </div>
+            </div>
 
-        
-
-            </div>   
-
-            <div className="menu-gradient"></div>  
-
-        </div>
+        </>
        
     );
  

@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        'me-shadow': '0 0 10px rgba(0, 0, 0, 0.25)',
+      }
+    },
     screens: {
       'tablet': '425px',
 
