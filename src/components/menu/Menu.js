@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CallBack from "../callBalck/callBack";
+import { Link } from "react-router-dom";
 
 import './Menu.css';
 
@@ -10,24 +11,27 @@ function Menu(){
     const [visibleMenu, setVisibleMenu] = useState('menu_hidden');
     const [BlurOffset, setBlurOffset] = useState(0);
 
-    let data = ['item1', 'item2', 'item3', 'item4', 'item5'];
-    let items = data.map((item, key, arr) => <p key={key} className="text-style-items">{item}</p> );
+    let data = [{name:"Обо мне", link:"about"}, {name:"Кинезиология", link:"WhatItIsKineziology"}, {name:"Продукты", link:"product"}, {name:"Новости", link:"news"}];
+    let items = data.map((item, key, arr) => <Link key={key} onClick={() => toggle()} to={item.link} className="text-style-items">{item.name}</Link> );
 
     let toggle = () => {
 
         if(iconMenu === 'burger'){
             setIconMenu('cross');
             setVisibleMenu('menu_visible');
-            setBlurOffset(window.scrollY || document.documentElement.scrollTop)
-            document.body.style.position = 'fixed';
+            // setBlurOffset(window.scrollY || document.documentElement.scrollTop)
+            // document.body.style.position = 'fixed';
         }else{
             setIconMenu('burger');
             setVisibleMenu('menu_hidden');
-            document.body.style.position = 'relative';
+            // document.body.style.position = 'relative';
         }
 
     };
-   
+
+
+
+
 
 
 

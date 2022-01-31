@@ -182,9 +182,16 @@
     @apply
     flex
     flex-col
+    desktop:hidden
+    laptop:hidden
+    tablet:flex
 }
 
 .menu_hidden{
     @apply
     hidden
+    desktop:hidden
+    laptop:hidden
+    tablet:hidden
 }
+

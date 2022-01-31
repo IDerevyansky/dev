@@ -1,8 +1,0 @@
-.body-container{
-    min-height: calc(100vh - 475px);
-
-    @apply
-    border
-    border-black
-    w-[100vw]
-}
