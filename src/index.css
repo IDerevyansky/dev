@@ -7,3 +7,22 @@ body{
     bg-[#F7F5EF]
 
 }
+
+.p{
+    @apply
+    text-gray-700
+    subpixel-antialiased
+}
+
+h1{
+    @apply
+    text-gray-700
+    text-2xl
+    subpixel-antialiased
+    font-semibold
+    tracking-wide
+    desktop:text-3xl
+    laptop:text-3xl
+    tablet:text-2xl
+
+}

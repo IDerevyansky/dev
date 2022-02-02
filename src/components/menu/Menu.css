@@ -144,10 +144,13 @@
 .button{
     @apply
     h-[0%]
+    desktop:px-[48px]
+    laptop:px-[48px]
+    tablet:px-[48px]
     bg-[#F5F3ED]
     rounded-[24px]
     py-[13px]
-    px-[48px]
+    px-[24vw]
     text-[16px]
     uppercase
     font-medium

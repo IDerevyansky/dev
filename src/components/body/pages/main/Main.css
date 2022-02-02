@@ -1,0 +1,47 @@
+.main_banners_container{
+    background: url('./img/img_main_banner.jpg');
+
+    @apply
+    border
+    border-orange-700
+    h-[1006px]
+    w-[100vw]
+    bg-auto
+    bg-no-repeat 
+    bg-center
+    flex
+    justify-center
+    tablet:h-[600px]
+    tablet:bg-cover
+    laptop:h-[800px]
+    laptop:bg-top
+    desktop:h-[1006px]
+}
+
+.banners_box{
+    @apply
+    w-[1330px]
+    h-[100vh]
+    grid
+    grid-cols-2
+    laptop:pr-[24px]
+    tablet:pr-[24px]
+    desktop:pr-[0px]
+    laptop:h-auto
+    tablet:h-auto
+    desktop:h-auto
+
+    border
+    border-cyan-400
+
+}
+
+.text_container{
+    @apply
+    border
+    border-lime-600
+    col-start-2
+    grid
+    content-center
+    gap-[24px]
+}
