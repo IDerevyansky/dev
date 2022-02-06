@@ -1,35 +1,17 @@
-.main_banners_container{
-    background: url('./img/img_main_banner.jpg');
-
-    @apply
-    border
-    border-orange-700
-    h-[1006px]
-    w-[100vw]
-    bg-auto
-    bg-no-repeat 
-    bg-center
-    flex
-    justify-center
-    tablet:h-[600px]
-    tablet:bg-cover
-    laptop:h-[800px]
-    laptop:bg-top
-    desktop:h-[1006px]
-}
 
 .banners_box{
     @apply
+    h-auto
     w-[1330px]
-    h-[100vh]
     grid
-    grid-cols-2
-    laptop:pr-[24px]
+    grid-rows-2
+    tablet:grid-cols-2
+    laptop:grid-cols-2
+    desktop:grid-cols-2
     tablet:pr-[24px]
+    laptop:pr-[24px]
     desktop:pr-[0px]
-    laptop:h-auto
-    tablet:h-auto
-    desktop:h-auto
+    px-[16px]
 
     border
     border-cyan-400
@@ -41,7 +23,135 @@
     border
     border-lime-600
     col-start-2
+    row-start-2
+    row-end-3
+    tablet:row-start-1
+    tablet:row-end-3
+    laptop:row-start-1
+    laptop:row-end-3
+    desktop:row-start-1
+    desktop:row-end-3
     grid
     content-center
     gap-[24px]
+}
+
+
+
+
+.box_btn{
+    @apply
+    border
+    border-red-700
+    w-auto
+    h-[150px]
+}
+
+.two_block{
+    @apply
+    flex
+    justify-center
+    bg-slate-300
+}
+
+.test_content{
+    @apply
+    border-2
+    border-orange-600
+    w-[1330px]
+    h-[2000px]
+}
+
+.main_banners_container{
+    background: url('./img/img_main_banner.jpg') -130px 0px ;
+    background-size: 250%;
+
+    @apply
+    border
+    border-orange-700
+    
+    min-h-[50vh]
+    /* bg-center */
+    bg-no-repeat 
+    /* bg-left-top */
+    flex
+    justify-center
+}
+
+.banners_box{
+    @apply
+    h-auto
+    w-[1330px]
+    grid
+    grid-rows-2
+    px-[16px]
+
+    border
+    border-cyan-400
+
+}
+
+@screen tablet {
+
+    .main_banners_container{
+        /* background: url('./img/img_main_banner.jpg'); */
+        /* background-position: -600px center; */
+
+        @apply
+        bg-no-repeat
+        bg-cover
+        bg-center
+        /* h-[70vh] */
+        min-h-[100vh]
+        w-[100vw]
+
+    }
+
+    .banners_box{
+        @apply
+        grid-cols-2
+        pr-[24px]
+    }
+
+}
+
+@screen laptop {
+
+    .main_banners_container{
+        @apply
+        bg-auto
+        bg-top
+        /* h-[800px] */
+        min-h-[85vh]
+        w-[100vw]
+    }
+
+    .banners_box{
+        @apply
+        grid-cols-2
+        pr-[24px]
+    }
+
+
+}
+
+@screen desktop {
+
+    .main_banners_container{
+        @apply
+        bg-auto
+        /* bg-center-top */
+        /* h-[1006px]*/
+        bg-top
+        h-auto 
+        w-[100vw]
+    }
+
+    .banners_box{
+        @apply
+        grid-cols-2
+        pr-[0px]
+    }
+
+
 }
