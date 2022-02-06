@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kinesiology/static/css/main.6e796a80.css",
+    "main.css": "/kinesiology/static/css/main.0c9d9389.css",
     "main.js": "/kinesiology/static/js/main.2f8f00e2.js",
     "static/js/787.47073a56.chunk.js": "/kinesiology/static/js/787.47073a56.chunk.js",
     "static/media/img_main_banner.jpg": "/kinesiology/static/media/img_main_banner.1fff65bcd1669b16cf3a.jpg",
@@ -12,12 +12,12 @@
     "static/media/burger.svg": "/kinesiology/static/media/burger.de3374575e3eac1382ee.svg",
     "static/media/cross.svg": "/kinesiology/static/media/cross.c8bef2619ac1a3d04a2b.svg",
     "index.html": "/kinesiology/index.html",
-    "main.6e796a80.css.map": "/kinesiology/static/css/main.6e796a80.css.map",
+    "main.0c9d9389.css.map": "/kinesiology/static/css/main.0c9d9389.css.map",
     "main.2f8f00e2.js.map": "/kinesiology/static/js/main.2f8f00e2.js.map",
     "787.47073a56.chunk.js.map": "/kinesiology/static/js/787.47073a56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e796a80.css",
+    "static/css/main.0c9d9389.css",
     "static/js/main.2f8f00e2.js"
   ]
 }
