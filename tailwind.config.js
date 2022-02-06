@@ -9,7 +9,7 @@ module.exports = {
       }
     },
     screens: {
-      'tablet': '425px',
+      'tablet': '450px',
 
       'laptop': '1025px',
 
