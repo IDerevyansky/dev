@@ -102,7 +102,7 @@
         bg-cover
         bg-center
         /* h-[70vh] */
-        min-h-[100vh]
+        min-h-[60vh]
         w-[100vw]
 
     }
@@ -119,10 +119,10 @@
 
     .main_banners_container{
         @apply
-        bg-auto
+        bg-cover
         bg-top
         /* h-[800px] */
-        min-h-[85vh]
+        min-h-[100vh]
         w-[100vw]
     }
 
@@ -143,7 +143,7 @@
         /* bg-center-top */
         /* h-[1006px]*/
         bg-top
-        h-auto 
+        min-h-[80vh] 
         w-[100vw]
     }
 
