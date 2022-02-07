@@ -1,44 +1,4 @@
 
-.banners_box{
-    @apply
-    h-auto
-    w-[1330px]
-    grid
-    grid-rows-2
-    tablet:grid-cols-2
-    laptop:grid-cols-2
-    desktop:grid-cols-2
-    tablet:pr-[24px]
-    laptop:pr-[24px]
-    desktop:pr-[0px]
-    px-[16px]
-
-    border
-    border-cyan-400
-
-}
-
-.text_container{
-    @apply
-    border
-    border-lime-600
-    col-start-2
-    row-start-2
-    row-end-3
-    tablet:row-start-1
-    tablet:row-end-3
-    laptop:row-start-1
-    laptop:row-end-3
-    desktop:row-start-1
-    desktop:row-end-3
-    grid
-    content-center
-    gap-[24px]
-}
-
-
-
-
 .box_btn{
     @apply
     border
@@ -71,12 +31,13 @@
     border-orange-700
     
     min-h-[50vh]
-    /* bg-center */
     bg-no-repeat 
-    /* bg-left-top */
     flex
     justify-center
 }
+
+
+
 
 .banners_box{
     @apply
@@ -84,26 +45,34 @@
     w-[1330px]
     grid
     grid-rows-2
-    px-[16px]
 
     border
     border-cyan-400
 
 }
 
+.text_container{
+    @apply
+    border
+    border-lime-600
+    col-start-2
+    row-start-2
+    row-end-3
+    grid
+    content-center
+    gap-[24px]
+    px-[16px]
+}
+
 @screen tablet {
 
     .main_banners_container{
-        /* background: url('./img/img_main_banner.jpg'); */
-        /* background-position: -600px center; */
 
         @apply
         bg-no-repeat
         bg-cover
         bg-center
-        /* h-[70vh] */
         min-h-[60vh]
-        w-[100vw]
 
     }
 
@@ -111,6 +80,13 @@
         @apply
         grid-cols-2
         pr-[24px]
+    }
+
+    .text_container{
+        @apply
+        row-start-1
+        row-end-3
+        px-[0px]
     }
 
 }
@@ -121,9 +97,8 @@
         @apply
         bg-cover
         bg-top
-        /* h-[800px] */
         min-h-[100vh]
-        w-[100vw]
+
     }
 
     .banners_box{
@@ -132,6 +107,12 @@
         pr-[24px]
     }
 
+    .text_container{
+        @apply
+        row-start-1
+        row-end-3
+        px-[0px]
+    }
 
 }
 
@@ -140,11 +121,8 @@
     .main_banners_container{
         @apply
         bg-auto
-        /* bg-center-top */
-        /* h-[1006px]*/
         bg-top
         min-h-[80vh] 
-        w-[100vw]
     }
 
     .banners_box{
@@ -153,5 +131,11 @@
         pr-[0px]
     }
 
+    .text_container{
+        @apply
+        row-start-1
+        row-end-3
+        px-[0px]
+    }
 
 }
