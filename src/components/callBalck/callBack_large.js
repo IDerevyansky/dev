@@ -22,7 +22,7 @@ function CallBackLarge(){
                 </div>
             </div>
 
-            <div className="center size"></div>
+            <div className="centerLarge"></div>
             <div className='content-callBack'>
             <p>Запись через Email</p>
                 <div className="Side right">

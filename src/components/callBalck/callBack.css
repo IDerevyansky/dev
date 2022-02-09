@@ -27,16 +27,8 @@
 
 .center{
     @apply
-    border-b-[1px]
-    border-l-[0px]
+    border-l-[1px]
     border-[#D7D8D9]
-    desktop:border-l-[1px]
-    laptop:border-l-[1px]
-    tablet:border-b-[1px]
-    desktop:border-b-[0px]
-    laptop:border-b-[0px]
-    tablet:border-l-[0px]
-
 }
 
 .btn{
@@ -49,6 +41,29 @@
 
 /* ----------callBack_large---------- */
 
+.centerLarge{
+    @apply
+    w-[100%]
+    h-auto
+    border-l-[1px]
+    border-[#D7D8D9]
+
+    desktop:w-auto
+    desktop:h-[43px]
+    laptop:w-auto
+    laptop:h-[43px]
+    tablet:w-[100%]
+    tablet:h-auto
+
+    desktop:border-l-[1px]
+    desktop:border-b-[0px]
+    laptop:border-l-[1px]
+    laptop:border-b-[0px]
+    tablet:border-l-[0px]
+    tablet:border-b-[1px]
+}
+
+
 .size{
     @apply
     w-auto
@@ -59,6 +74,10 @@
     @apply
     flex
     flex-col
+    text-center
+    desktop:text-left
+    laptop:text-left
+    tablet:text-center
     gap-[13px]
 }
 
