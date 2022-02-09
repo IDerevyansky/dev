@@ -1,0 +1,19 @@
+.testBlock{
+    @apply
+    border-2
+    border-blue-800
+    w-auto
+    h-[1500px]
+    flex
+    justify-center
+    items-center
+}
+
+.main{
+    @apply
+    border
+    border-red-500
+    w-[500px]
+    h-[500px]
+}
+

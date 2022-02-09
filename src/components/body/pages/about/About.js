@@ -1,11 +1,23 @@
 import React from 'react';
+import CallBackLarge from '../../../callBalck/callBack_large';
 
 import './About.css';
 
 
 function About(){
     return(
-       <p>About</p>
+       <div className='testBlock'>
+           <div className="main">
+
+
+
+            <CallBackLarge/>
+
+
+
+
+           </div>
+       </div>
     );
 }
 

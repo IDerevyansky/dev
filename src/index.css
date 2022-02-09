@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* *{
-    border:0px !important;
+    border:1px solid black !important; 
 } */
 
 body{

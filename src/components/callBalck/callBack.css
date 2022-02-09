@@ -1,19 +1,24 @@
 .contaoner-callback{
     @apply
     flex
-    flex-grow
+    flex-col
+    desktop:flex-row
+    laptop:flex-row
+    tablet:flex-col
     gap-6
+    justify-center
 }
 
 .Side{
     @apply
     flex
-    flex-grow
     gap-3
 }
 
 .left{
-
+    @apply
+    flex
+    justify-between
 }
 
 .right{
@@ -22,8 +27,16 @@
 
 .center{
     @apply
-    border-l-[1px]
+    border-b-[1px]
+    border-l-[0px]
     border-[#D7D8D9]
+    desktop:border-l-[1px]
+    laptop:border-l-[1px]
+    tablet:border-b-[1px]
+    desktop:border-b-[0px]
+    laptop:border-b-[0px]
+    tablet:border-l-[0px]
+
 }
 
 .btn{
@@ -31,3 +44,30 @@
     opacity-100
     hover:opacity-80
 }
+
+
+
+/* ----------callBack_large---------- */
+
+.size{
+    @apply
+    w-auto
+    h-[43px]
+}
+
+.content-callBack{
+    @apply
+    flex
+    flex-col
+    gap-[13px]
+}
+
+.item-end{
+    @apply
+    items-center
+    desktop:items-end
+    laptop:items-end
+    tablet:items-center
+}
+
+/* ----------callBack_large---------- */
