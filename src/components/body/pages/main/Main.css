@@ -1,10 +1,15 @@
 
 .box_btn{
     @apply
-    border
-    border-red-700
+    /* border
+    border-red-700 */
     w-auto
-    h-[150px]
+    flex
+    justify-center
+    desktop:justify-start
+    laptop:justify-start
+    tablet:justify-start
+    /* h-[150px] */
 }
 
 .two_block{
@@ -36,8 +41,13 @@
     justify-center
 }
 
-
-
+.text_container{
+    @apply
+    row-start-1
+    row-end-3
+    px-[0px]
+    mb-[32px]
+}
 
 .banners_box{
     @apply
@@ -87,6 +97,7 @@
         row-start-1
         row-end-3
         px-[0px]
+        mb-[32px]
     }
 
 }
@@ -98,7 +109,6 @@
         bg-cover
         bg-top
         min-h-[100vh]
-
     }
 
     .banners_box{
@@ -112,6 +122,7 @@
         row-start-1
         row-end-3
         px-[0px]
+        mb-[32px]
     }
 
 }
@@ -136,6 +147,7 @@
         row-start-1
         row-end-3
         px-[0px]
+        mb-[32px]
     }
 
 }

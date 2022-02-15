@@ -7,6 +7,13 @@
     tablet:flex-col
     gap-6
     justify-center
+    w-[200px]
+    desktop:w-[450px]
+    laptop:w-[450px]
+    tablet:w-[200px]
+
+    /* border
+    border-red-600 */
 }
 
 .Side{
@@ -41,18 +48,52 @@
 
 /* ----------callBack_large---------- */
 
+.numPhone{
+    @apply
+    font-semibold
+    text-xl
+    text-[#525862]
+}
+
+.block-phone{
+    @apply
+    my-6
+    flex
+    flex-col
+    justify-center
+    gap-4
+    w-auto
+
+}
+
+.content-center{
+    @apply
+    flex
+    justify-center
+}
+
+.content-main{
+    @apply
+    flex
+    flex-col
+    /* border
+    border-orange-300 */
+
+}
+
 .centerLarge{
     @apply
-    w-[100%]
+    w-[90%]
     h-auto
-    border-l-[1px]
+    border-b-[1px]
     border-[#D7D8D9]
+
 
     desktop:w-auto
     desktop:h-[43px]
     laptop:w-auto
     laptop:h-[43px]
-    tablet:w-[100%]
+    tablet:w-[90%]
     tablet:h-auto
 
     desktop:border-l-[1px]

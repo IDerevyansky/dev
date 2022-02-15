@@ -1,4 +1,5 @@
 import React from 'react';
+import CallBackLarge from '../../../callBalck/callBack_large';
 
 import './Main.css';
 
@@ -19,7 +20,9 @@ function Main(){
                             телефона данного человека, и вы можете создать ссылку, которая позволит 
                             начать с ним чат. 
                         </p>
-                        <div className="box_btn"></div>
+                        <div className="box_btn">
+                           <CallBackLarge/>
+                        </div>
                     </div>
 
                 </div>

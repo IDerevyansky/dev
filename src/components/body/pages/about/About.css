@@ -15,5 +15,8 @@
     border-red-500
     w-[500px]
     h-[500px]
+    flex
+    justify-center
+    items-start
 }
 
