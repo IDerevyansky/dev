@@ -167,7 +167,7 @@
     animation: pulse 1s ;
 
     @apply
-    p-6
+    p-[25px]
     rounded-[99px]
 }
 
