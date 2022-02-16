@@ -98,7 +98,8 @@
 
 .container-mobile_menu{
     @apply
-    w-[100%]
+    /* w-[100%] */
+    w-[100vw]
     z-50
     fixed
     flex
@@ -111,8 +112,8 @@
 
 .box_mobile_menu{
     @apply
-    w-[1330px]
-    p-[16px]
+    w-[100vw]
+    p-[32px]
 }
 
 .mobile_items-content{
@@ -130,9 +131,10 @@
     @apply
     flex
     flex-row
-    float-right
+    justify-end
     gap-[24px]
     mt-[24px]
+    w-[100%]
 }
 
 .shadow{
@@ -144,26 +146,28 @@
 .button{
     @apply
     h-[0%]
-    desktop:px-[48px]
+    w-[100%]
+    tablet:w-[45%]
+    /* desktop:px-[48px]
     laptop:px-[48px]
-    tablet:px-[48px]
+    tablet:px-[48px] */
     bg-[#F5F3ED]
     rounded-[24px]
     py-[13px]
-    px-[24vw]
+    /* px-[24vw] */
     text-[16px]
     uppercase
     font-medium
     text-gray-700
     hover:text-gray-900
+    text-center
 }
 
 .mobile_menu{
     animation: pulse 1s ;
 
     @apply
-    w-[51px]
-    h-[51px]
+    p-6
     rounded-[99px]
 }
 

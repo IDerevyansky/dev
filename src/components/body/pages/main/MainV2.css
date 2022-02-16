@@ -1,0 +1,54 @@
+.main-container{  
+    @apply
+    h-[100vh]
+    grid
+    grid-rows-2
+    laptop:grid-cols-2
+}
+
+
+.side{
+    /* @apply */
+    
+}
+
+.Left{
+    background: url('./img/img_mainV2_banner.jpg');
+    /* background: url('./img/img_main_banner.jpg') -130px 0px ; */
+    /* background-size: 250%; */
+
+    @apply
+    bg-[#F7F5EF]
+    flex
+    items-end
+    laptop:justify-end
+    bg-no-repeat
+    bg-cover
+    bg-center
+
+    col-span-3
+    laptop:row-span-3
+    laptop:col-span-1
+}
+
+.Right{
+    @apply
+    bg-[#F7F5EF]
+
+    col-span-3
+    laptop:row-span-3
+    laptop:col-span-1
+}
+
+.Grad{
+    @apply
+    h-[25%]
+    w-[100%]
+    laptop:w-[25%]
+    laptop:h-[100%]
+    bg-gradient-to-t from-[#F7F5EF]
+    laptop:bg-gradient-to-l from-[#F7F5EF]
+    
+}
+
+

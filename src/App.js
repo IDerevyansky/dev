@@ -17,6 +17,7 @@ import Doterra from './components/body/pages/doterra/Doterra';
 
 import Footer from './components/footer/Footer';
 import Menu from './components/menu/Menu';
+import MainV2 from './components/body/pages/main/MainV2';
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
           <div className="body-container">
 
             <Routes>
-              <Route path="/" element={<Main/>} />
+              <Route path="/" element={<MainV2/>} />
               <Route path="about" element={<About/>} />
               <Route path="product" element={<Product/>} />
               <Route path="doterra" element={<Doterra/>} />
