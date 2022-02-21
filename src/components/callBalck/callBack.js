@@ -11,7 +11,7 @@ function CallBack(){
 
     return(
     
-        <div className="contaoner-callback">
+        <div className="container-callback">
             <div className="Side left">
                 <img className="btn" src={whatsapp_dark}></img>
                 <img className="btn" src={telegram_dark}></img>

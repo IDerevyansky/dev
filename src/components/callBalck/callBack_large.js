@@ -25,7 +25,7 @@ function CallBackLarge(props){
 
         <div className="content-main">
     
-            <div className="contaoner-callback item-end">
+            <div className="container-callback item-end">
 
                 <div className='content-callBack'>
                     <p>Записаться в один клик</p>

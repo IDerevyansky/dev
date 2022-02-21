@@ -1,15 +1,27 @@
 .main-container{  
     @apply
-    h-[100vh]
+    /* h-[100vh] */
+    min-h-[100vh]
     grid
     grid-rows-2
     laptop:grid-cols-2
+    mb-[32px]
+    laptop:mb-[0px]
 }
 
 
 .side{
     /* @apply */
     
+}
+
+.text-container{
+    @apply
+    grid
+    gap-[8px]
+    max-w-full
+    desktop:max-w-[650px]
+
 }
 
 .Left{
@@ -34,10 +46,17 @@
 .Right{
     @apply
     bg-[#F7F5EF]
-
     col-span-3
     laptop:row-span-3
     laptop:col-span-1
+    gap-[40px]
+    grid
+    content-center
+    p-[16px]
+    /* mx-[40px] */
+    laptop:mx-[40px]
+    tablet:mx-[0px]
+
 }
 
 .Grad{

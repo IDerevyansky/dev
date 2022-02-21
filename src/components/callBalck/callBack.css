@@ -1,19 +1,19 @@
-.contaoner-callback{
+.container-callback{
     @apply
     flex
     flex-col
     desktop:flex-row
     laptop:flex-row
-    tablet:flex-col
+    tablet:flex-row
     gap-6
-    justify-center
-    w-[200px]
-    desktop:w-[450px]
-    laptop:w-[450px]
-    tablet:w-[200px]
-
-    /* border
-    border-red-600 */
+    /* justify-end */
+    w-[186px]
+    desktop:w-[427px]
+    laptop:w-[427px]
+    tablet:w-auto
+    desktop:gap-6
+    laptop:gap-6
+    tablet:gap-6
 }
 
 .Side{
@@ -28,9 +28,9 @@
     justify-between
 }
 
-.right{
+/* .right{
 
-}
+} */
 
 .center{
     @apply
@@ -60,9 +60,16 @@
     my-6
     flex
     flex-col
-    justify-center
+    justify-start
     gap-4
     w-auto
+
+
+    w-[186px]
+    desktop:w-[427px]
+    laptop:w-[427px]
+    tablet:w-[410px]
+
 
 }
 
@@ -76,8 +83,6 @@
     @apply
     flex
     flex-col
-    /* border
-    border-orange-300 */
 
 }
 
@@ -93,15 +98,15 @@
     desktop:h-[43px]
     laptop:w-auto
     laptop:h-[43px]
-    tablet:w-[90%]
-    tablet:h-auto
+    tablet:w-auto
+    tablet:h-[43px]
 
     desktop:border-l-[1px]
     desktop:border-b-[0px]
     laptop:border-l-[1px]
     laptop:border-b-[0px]
-    tablet:border-l-[0px]
-    tablet:border-b-[1px]
+    tablet:border-l-[1px]
+    tablet:border-b-[0px]
 }
 
 
@@ -125,9 +130,10 @@
 .item-end{
     @apply
     items-center
+    justify-start
     desktop:items-end
     laptop:items-end
-    tablet:items-center
+    tablet:items-end
 }
 
 /* ----------callBack_large---------- */
