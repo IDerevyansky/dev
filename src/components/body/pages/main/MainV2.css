@@ -70,4 +70,37 @@
     
 }
 
+.container-general{
+    @apply
+    border
+    border-red-600
+
+    flex
+    flex-col
+    items-center
+}
+
+.two-block{
+    @apply
+    w-full
+    max-w-[1330px]
+    h-[400px]
+    flex
+    flex-row
+    gap-10
+    border
+    border-gray-500
+}
+
+.two-block_left{
+    @apply
+    w-1/3
+    bg-slate-300
+}
+
+.two-block_right{
+    @apply
+    w-2/3
+    bg-slate-400
+}
 
