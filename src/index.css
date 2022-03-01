@@ -30,3 +30,23 @@ h1{
     tablet:text-2xl
 
 }
+
+h2{
+    @apply
+    text-gray-700
+    text-2xl
+    subpixel-antialiased
+    font-semibold
+    tracking-wide
+    desktop:text-2xl
+    laptop:text-2xl
+    tablet:text-2xl
+
+}
+
+.Link{
+    @apply
+    text-[#A4A7A8]
+    subpixel-antialiased
+    underline
+}

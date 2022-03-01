@@ -18,7 +18,7 @@
 .text-container{
     @apply
     grid
-    gap-[8px]
+    gap-4
     max-w-full
     desktop:max-w-[650px]
 
@@ -72,35 +72,103 @@
 
 .container-general{
     @apply
-    border
-    border-red-600
-
     flex
     flex-col
     items-center
+    justify-center
 }
 
-.two-block{
+.block{
     @apply
+    
+    laptop:items-center
+    items-center
+
     w-full
     max-w-[1330px]
-    h-[400px]
+    min-h-[80vh]
+    tablet:min-h-[100vh]
+
     flex
-    flex-row
-    gap-10
-    border
-    border-gray-500
+
+    /* border
+    border-red-700 */
+
 }
 
 .two-block_left{
     @apply
-    w-1/3
-    bg-slate-300
+    w-auto
+    laptop:w-1/3
+    /* bg-slate-300 */
+    text-left
+    laptop:text-right
 }
 
 .two-block_right{
     @apply
-    w-2/3
-    bg-slate-400
+    w-auto
+    laptop:w-2/3
+    /* bg-slate-400 */
+
+    flex
+    flex-col
+    gap-[16px]
 }
 
+
+.content_block{
+    @apply
+    w-full
+    px-[16px]
+    py-[32px]
+    laptop:px-[16px]
+    desktop:px-[0px]
+    h-min
+    flex
+    flex-col
+    laptop:flex-row
+    gap-4
+    laptop:gap-10
+
+
+    /* border
+    border-green-700 */
+}
+
+.img_two_block{
+    background: url('./img/img_three_block.jpg');
+
+    @apply
+    w-[614px]
+    h-[640px]
+    bg-cover
+    bg-center
+/* 
+    border
+    border-red-700 */
+    laptop:w-1/2
+    w-auto
+
+}
+
+.text_two_block{
+    @apply
+    flex
+    flex-col
+    gap-4
+    w-auto
+    laptop:w-1/2
+
+    /* border
+    border-green-700 */
+
+}
+
+.revers{
+    @apply
+    flex-col-reverse
+    laptop:flex-row
+    laptop:items-center
+    gap-10
+}
