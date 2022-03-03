@@ -103,6 +103,10 @@
     /* bg-slate-300 */
     text-left
     laptop:text-right
+
+    px-[16px]
+    laptop:px-[16px]
+    desktop:px-[0px]
 }
 
 .two-block_right{
@@ -110,6 +114,10 @@
     w-auto
     laptop:w-2/3
     /* bg-slate-400 */
+
+    px-[16px]
+    laptop:px-[16px]
+    desktop:px-[0px]
 
     flex
     flex-col
@@ -120,10 +128,9 @@
 .content_block{
     @apply
     w-full
-    px-[16px]
+    
     py-[32px]
-    laptop:px-[16px]
-    desktop:px-[0px]
+
     h-min
     flex
     flex-col
@@ -159,6 +166,9 @@
     gap-4
     w-auto
     laptop:w-1/2
+    px-[16px]
+    laptop:px-[16px]
+    desktop:px-[0px]
 
     /* border
     border-green-700 */
