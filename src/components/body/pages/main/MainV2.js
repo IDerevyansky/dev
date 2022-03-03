@@ -101,6 +101,160 @@ function MainV2(){
 
 
 
+                <div className="block">
+
+                <div className="content-cards">
+
+                      <h2>Темы для работы</h2>
+                      <div className="scroll-box-cards_work">
+
+                      
+                        <div className="box-cards_work">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div className="card">
+
+                        <div className="header-block">
+
+                          <h3>Руки ножницы</h3>
+                          <p>
+                            Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.
+                          </p>
+
+                        </div>
+
+                        <div className="footer-block"><Link className="appointment" to="WhatItIsKineziology">Записаться</Link></div>
+
+                        </div>
+
+
+                        <div className="card">
+
+                        <div className="header-block">
+
+                          <h3>Руки ножницы</h3>
+                          <p>
+                            Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?  
+                          </p>
+
+                        </div>
+
+                        <div className="footer-block"><Link className="appointment" to="WhatItIsKineziology">Записаться</Link></div>
+
+                        </div>
+
+
+                        <div className="card">
+
+                        <div className="header-block">
+
+                          <h3>Руки ножницы</h3>
+                          <p>
+                          Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.
+                          </p>
+
+                        </div>
+
+                        <div className="footer-block"><Link className="appointment" to="WhatItIsKineziology">Записаться</Link></div>
+
+                        </div>
+
+
+                        <div className="card">
+
+                        <div className="header-block">
+
+                          <h3>Руки ножницы</h3>
+                          <p>
+                            Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо.
+                          </p>
+
+                        </div>
+
+                        <div className="footer-block"><Link className="appointment" to="WhatItIsKineziology">Записаться</Link></div>
+
+                        </div>
+
+
+                        <div className="card">
+
+                        <div className="header-block">
+
+                          <h3>Руки ножницы</h3>
+                          <p>
+                            Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?  
+                          </p>
+
+                        </div>
+
+                        <div className="footer-block"><Link className="appointment" to="WhatItIsKineziology">Записаться</Link></div>
+
+                        </div>
+
+
+                        <div className="card">
+
+                        <div className="header-block">
+
+                          <h3>Руки ножницы</h3>
+                          <p>
+                            Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, 
+                          </p>
+
+                        </div>
+
+                        <div className="footer-block"><Link className="appointment" to="WhatItIsKineziology">Записаться</Link></div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          
+                        </div>
+
+                        
+                      </div>
+
+                      <div className="more"> <Link className="Link" to="WhatItIsKineziology">Подробнее</Link> </div>
+
+                  </div>
+
+                </div>
+
+
+
+
               </div>
 
 

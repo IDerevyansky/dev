@@ -90,9 +90,10 @@
     tablet:min-h-[100vh]
 
     flex
+    flex-row
 
-    /* border
-    border-red-700 */
+    border
+    border-red-700
 
 }
 
@@ -181,4 +182,84 @@
     laptop:flex-row
     laptop:items-center
     gap-10
+}
+
+.content-cards{
+    @apply
+    w-full
+    flex
+    flex-col
+    gap-[32px]
+
+    px-[16px]
+    laptop:px-[16px]
+    desktop:px-[0px]
+
+    border
+    border-emerald-700
+}
+
+.scroll-box-cards_work{
+    @apply
+    overflow-auto
+
+    border
+    border-r-orange-500
+}
+
+.box-cards_work{
+    @apply
+    grid
+    desktop:grid-cols-3
+    desktop:grid-rows-2
+    laptop:grid-cols-3
+    laptop:grid-rows-2
+    tablet:grid-cols-6
+    grid-cols-6
+    laptop:gap-4
+    gap-6
+    w-[100wv]
+
+    border
+    border-green-700
+}
+
+.card{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    transition-duration: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    transition-duration: 0.5s;
+}
+
+.card{
+    @apply
+    bg-[#F5F3EE]
+    rounded-[16px]
+    min-h-[300px]
+    tablet:w-auto
+    min-w-[300px]
+    w-auto
+    p-[32px]
+    flex
+    flex-col
+    justify-between
+}
+
+.more{
+
+}
+
+.header-block{
+    @apply
+    flex
+    flex-col
+    gap-[24px]
+}
+
+.footer-block{
+    /* @apply */
+
 }

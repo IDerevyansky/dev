@@ -44,9 +44,26 @@ h2{
 
 }
 
+h3{
+    @apply
+    text-gray-700
+    text-lg
+    subpixel-antialiased
+    font-semibold
+    tracking-wide
+}
+
 .Link{
     @apply
     text-[#A4A7A8]
     subpixel-antialiased
     underline
+}
+
+.appointment{
+    @apply
+    text-gray-700
+    subpixel-antialiased
+    underline
+    font-medium
 }
