@@ -184,82 +184,136 @@
     gap-10
 }
 
-.content-cards{
+
+
+
+.cards-content-block{
     @apply
+    border
+    border-gray-500
+
     w-full
     flex
     flex-col
-    gap-[32px]
-
-    px-[16px]
-    laptop:px-[16px]
-    desktop:px-[0px]
-
-    border
-    border-emerald-700
+    gap-8
 }
 
-.scroll-box-cards_work{
+.slider-content-block{
     @apply
-    overflow-auto
-
     border
-    border-r-orange-500
-}
-
-.box-cards_work{
-    @apply
+    border-green-500
     grid
-    desktop:grid-cols-3
-    desktop:grid-rows-2
+    grid-flow-col
+    laptop:grid-rows-2
+    gap-4
+    px-4
+    desktop:px-0
+    overflow-y-hidden
+
+}
+
+.title_cards{
+    @apply
+    pl-4
+    desktop:pl-0
+    border
+}
+
+.more_cards{
+    @apply
+    border
+    text-center
+}
+
+.content-block-news{
+    @apply
+    w-full
+    grid
+    gap-8
+}
+
+.title-news{
+    @apply
+    pl-4
+    desktop:pl-0
+}
+
+.more-news{
+    @apply
+    text-center
+}
+
+.field-card-news{
+    @apply
+    gap-4
+    px-4
+    desktop:px-0
+    grid
+    grid-flow-col
+    grid-cols-6
+    grid-rows-1
     laptop:grid-cols-3
     laptop:grid-rows-2
-    tablet:grid-cols-6
-    grid-cols-6
-    laptop:gap-4
-    gap-6
-    w-[100wv]
+    laptop:min-h-[700px]
+    min-h-[300px]
+    overflow-y-hidden
 
     border
-    border-green-700
+    border-red-700
+
+
+    
 }
 
-.card{
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
-    transition-duration: 0.5s;
-}
-
-.card:hover{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-    transition-duration: 0.5s;
-}
-
-.card{
+.news-card{
+    background-size:contain;
     @apply
-    bg-[#F5F3EE]
-    rounded-[16px]
+    bg-[#EFEDE6]
+    rounded-[10px]
+    overflow-hidden
+
     min-h-[300px]
-    tablet:w-auto
-    min-w-[300px]
-    w-auto
-    p-[32px]
-    flex
-    flex-col
-    justify-between
-}
-
-.more{
+    tablet:min-w-[300px]
+    min-w-[80vw]
 
 }
 
-.header-block{
+.bg-gradient{
     @apply
+    w-full
+    h-full
+    bg-gradient-to-t 
+    from-[#2A2E3B]
     flex
     flex-col
-    gap-[24px]
+    justify-end
 }
 
-.footer-block{
-    /* @apply */
+.content-area{
+    @apply
+    p-10
+    gap-4
+    flex
+    flex-col
+}
 
+.card-title-news{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+    @apply
+    text-white
+}
+
+.card-bodyText-news{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+
+    @apply
+    text-white 
+    
 }
