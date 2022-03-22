@@ -190,58 +190,50 @@ function MainV2(){
 
                   <div className="field-card-news">
 
-                    <div className="news-card col-span-1 laptop:col-span-2 " style={{background:'url(https://images.unsplash.com/photo-1504908892453-3cb0b90b5002?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
-                      <div className="bg-gradient">
-                        <div className="content-area">
-                          <h3 className="card-title-news">Title1</h3>
-                          <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1644232448481-a5e82f095196?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50) no-repeat', backgroundSize:'cover'}}>
-                    
-                    <div className="bg-gradient">
-                        <div className="content-area">
-                          <h3 className="card-title-news">Title2</h3>
-                          <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
-                        </div>
-                      </div>
-
-                    </div>
-
-                    <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1610809027249-86c649feacd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
-                       
-                       <div className="bg-gradient">
-                        <div className="content-area">
-                          <h3 className="card-title-news">Title3</h3>
-                          <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
-                        </div>
-                      </div>
-
-                    </div>
-
-                    <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1610555356070-d0efb6505f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50) no-repeat', backgroundSize:'cover'}}>
-                      
-                      <div className="bg-gradient">
-                        <div className="content-area">
-                          <h3 className="card-title-news">Title4</h3>
-                          <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
-                        </div>
-                      </div>
-
-                    </div>
-
-                    <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1612676239016-41e2c92b8e06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
-                        
-                        <div className="bg-gradient">
-                          <div className="content-area">
-                            <h3 className="card-title-news">Title5</h3>
-                            <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                          <div className="news-card col-span-1 laptop:col-span-2 " style={{background:'url(https://images.unsplash.com/photo-1504908892453-3cb0b90b5002?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
+                            <div className="bg-gradient">
+                              <div className="content-area">
+                                <h3 className="card-title-news">Title1</h3>
+                                <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                              </div>
+                            </div>
                           </div>
-                      </div>
 
-                    </div>
+                          <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1644232448481-a5e82f095196?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50) no-repeat', backgroundSize:'cover'}}>
+                          <div className="bg-gradient">
+                              <div className="content-area">
+                                <h3 className="card-title-news">Title2</h3>
+                                <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1610809027249-86c649feacd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
+                            <div className="bg-gradient">
+                              <div className="content-area">
+                                <h3 className="card-title-news">Title3</h3>
+                                <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1610555356070-d0efb6505f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50) no-repeat', backgroundSize:'cover'}}>
+                            <div className="bg-gradient">
+                              <div className="content-area">
+                                <h3 className="card-title-news">Title4</h3>
+                                <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1612676239016-41e2c92b8e06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
+                              <div className="bg-gradient">
+                                <div className="content-area">
+                                  <h3 className="card-title-news">Title5</h3>
+                                  <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                                </div>
+                            </div>
+                          </div>
 
                   </div>
 
