@@ -244,6 +244,32 @@ function MainV2(){
 
 
 
+                <div className="block">
+
+                  <div className="container-questions">
+                    <h2>Часто задаваемые вопросы или просто ответы на термены</h2>
+                    <div className="question-cards">
+
+                      <div className="question-card">
+                        <div className="title-and-icon">
+                          <h3>Title</h3>
+                          <div className="icon_qu-card">X</div>
+                        </div>
+
+                        <div className="body_qu-card">
+                          <p>Qasdsa dsd sd asdasdasd sdsdsad asd asdsdasdas </p>
+                        </div>
+
+                      </div>
+
+
+                    </div>  
+                  </div>
+
+                </div>
+
+
+
 
               </div>
 
