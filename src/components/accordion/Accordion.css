@@ -1,4 +1,7 @@
 .question-card{
+    transition-duration: 4s;
+    transition-delay: 2s;
+
     @apply
     px-6
     py-4
@@ -22,7 +25,6 @@
 .qu-text-color{
     @apply
     text-[#525862]
-
 }
 
 .title-and-icon{
@@ -31,7 +33,6 @@
     flex-row
     justify-between
     items-center
-   
 }
 
 .icon_qu-card{

@@ -46,6 +46,28 @@ let data = {
     "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?",
     "link":"666",
   }
+],
+"questions":[
+  {
+    "id":1,
+    "title":"title 1",
+    "bodyText":"qqqqqqqq",
+  },
+  {
+    "id":2,
+    "title":"title 2",
+    "bodyText":"wwwwwwwwww",
+  },
+  {
+    "id":3,
+    "title":"title 3",
+    "bodyText":"eeeeeeeeeee",
+  },
+  {
+    "id":4,
+    "title":"title 4",
+    "bodyText":"rrrrrrrrrrrr",
+  },
 ]
 
 };
@@ -63,6 +85,21 @@ let Cards = data.card.map((obj, i)=>{
       link={obj.link}
     /> 
   )
+
+  });
+
+
+  let Questions = data.questions.map((obj, i)=>{
+
+    return(
+
+      <Accordion 
+        key={i}
+        title={obj.title} 
+        bodyText={obj.bodyText}
+      />
+
+    )
 
   });
 
@@ -252,7 +289,7 @@ function MainV2(){
                 <h2>Часто задаваемые вопросы или просто ответы на термены</h2>
                   <div className="question-cards">
 
-                  <Accordion title={'qweqwe fsdfsd sdfsdfdsf f sdfd sdfdsfsdfsdf fsdf dfds fdsfdsfdsfsdf df sdf sdf sdfsdf sdf  sdfdsfsdfsdf sdf sad sadsadasdsa dasdasdsad sadsadasdsad dsdsadsd sd sdasda sdasda sd sdsdsad sdas ds dsd sdssdsdsda sdasdsdadsd asds'} bodyText={'qweqweqwewe'}/>
+                    {Questions}
 
                   </div>  
                 </div>

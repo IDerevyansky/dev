@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './Accordion.css';
 
 
+
 function Accordion(props){
 
-    let state = true;
+    const [stateAccordion, setStateAccordion] = useState(false);
+
+    let toggle = () => {
+        stateAccordion?setStateAccordion(false):setStateAccordion(true);
+    }
 
     return(
 
@@ -13,10 +18,10 @@ function Accordion(props){
           <div className="question-card">
             <div className="title-and-icon">
               <h3 className="qu-text-color qu-text" dangerouslySetInnerHTML={{__html:props.title}}></h3>
-              <div className="icon_qu-card"></div>
+              <div className={stateAccordion?'icon_qu-card rotate-180 duration-300':'icon_qu-card rotate-0 duration-300'} onClick={() => toggle()}></div>
             </div>
 
-            <div className={"body_qu-card"}>
+            <div className={stateAccordion?'visible body_qu-card':'hidden body_qu-card'}>
               <p className="qu-text-color" dangerouslySetInnerHTML={{__html:props.bodyText}}></p>
             </div>
 
