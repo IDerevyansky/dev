@@ -1,0 +1,51 @@
+.question-card{
+    @apply
+    px-6
+    py-4
+    rounded-2xl
+    w-full
+    bg-[#FFFCF5]
+    hover:shadow-sm
+
+    
+}
+
+.qu-text{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    @apply
+    w-full
+}
+
+.qu-text-color{
+    @apply
+    text-[#525862]
+
+}
+
+.title-and-icon{
+    @apply
+    flex
+    flex-row
+    justify-between
+    items-center
+   
+}
+
+.icon_qu-card{
+    background: url('./img/Union.svg');
+
+    @apply
+    w-[13px]
+    h-[13px]
+
+}
+
+.body_qu-card{
+    @apply
+    border-t
+    mt-4
+    pt-4
+}

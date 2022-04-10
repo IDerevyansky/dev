@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import CallBackLarge from "../../../callBalck/callBack_large";
 import Card from "../../../Product_card/Card";
 
+import '../../../accordion/Accordion.css';
 import './MainV2.css';
+import Accordion from "../../../accordion/Accordion";
 
 
 let data = {
@@ -246,25 +248,14 @@ function MainV2(){
 
                 <div className="block">
 
-                  <div className="container-questions">
-                    <h2>Часто задаваемые вопросы или просто ответы на термены</h2>
-                    <div className="question-cards">
+                <div className="container-questions">
+                <h2>Часто задаваемые вопросы или просто ответы на термены</h2>
+                  <div className="question-cards">
 
-                      <div className="question-card">
-                        <div className="title-and-icon">
-                          <h3>Title</h3>
-                          <div className="icon_qu-card">X</div>
-                        </div>
+                  <Accordion title={'qweqwe fsdfsd sdfsdfdsf f sdfd sdfdsfsdfsdf fsdf dfds fdsfdsfdsfsdf df sdf sdf sdfsdf sdf  sdfdsfsdfsdf sdf sad sadsadasdsa dasdasdsad sadsadasdsad dsdsadsd sd sdasda sdasda sd sdsdsad sdas ds dsd sdssdsdsda sdasdsdadsd asds'} bodyText={'qweqweqwewe'}/>
 
-                        <div className="body_qu-card">
-                          <p>Qasdsa dsd sd asdasdasd sdsdsad asd asdsdasdas </p>
-                        </div>
-
-                      </div>
-
-
-                    </div>  
-                  </div>
+                  </div>  
+                </div>
 
                 </div>
 
