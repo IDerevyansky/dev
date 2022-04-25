@@ -25,6 +25,26 @@
 
 }
 
+.block-top{
+    @apply
+    
+    laptop:items-start
+    items-start
+    py-[32px]
+    w-full
+    max-w-[1330px]
+    min-h-[50vh]
+    tablet:min-h-[50vh]
+
+    flex
+    flex-row
+
+    border
+    border-red-700
+
+}
+
+
 .two-block_left{
     @apply
     w-auto

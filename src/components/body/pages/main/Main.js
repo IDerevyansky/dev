@@ -113,7 +113,7 @@ function Main(){
 
         <>
 
-              <FirstBanner/> 
+              <FirstBanner/>
             
               <div className="container-general">
 
@@ -125,30 +125,14 @@ function Main(){
                   <div className="content_block">
 
                         <div className="two-block_left">
-                          <h2>Что нужно знать о кинезиологии</h2>
+                          <h2 dangerouslySetInnerHTML={{__html:"Что нужно знать о кинезиологии"}}></h2>
                         </div>
                         <div className="two-block_right">
 
-                          <p>
-                                Он вкалывал все эти десять лет не для того, чтобы теперь замедлить ход к уже близкой победе. 
-                                Я хочу поздравить вас всех с успешным завершением нашего дела – проект «Хинни и Смит» 
-                                закончился очень удачно для всех нас. Теперь мы можем сами доставлять товары во все уголки 
-                                страны, сокращая расходы и увеличивая прибыль.  – Рик поднял бокал с шампанским. 
-                                – За замечательную команду с блестящим будущим! Он сделал глоток из бокала под гул всеобщего 
-                                одобрения. 
-                          </p>
+                          <p dangerouslySetInnerHTML={{__html:"Он вкалывал все эти десять лет не для того, чтобы теперь замедлить ход к уже близкой победе. Я хочу поздравить вас всех с успешным завершением нашего дела – проект «Хинни и Смит» закончился очень удачно для всех нас. Теперь мы можем сами доставлять товары во все уголки страны, сокращая расходы и увеличивая прибыль.  – Рик поднял бокал с шампанским. – За замечательную команду с блестящим будущим! Он сделал глоток из бокала под гул всеобщего одобрения.<br/><br/> Его взгляд снова скользнул к отчужденной, но удивительно милой незнакомке. Девушка все так же стояла в дверях, наблюдая за его сотрудниками. У нее в руках не было бокала. И это нужно исправить. Мужчина опять потер подбородок. Следующей задачей было слияние с компанией «Спорта Ко» и удвоение объема продаж их спортивного оборудования. Разумеется, было весьма рискованно предпринимать этот шаг так быстро, но Рик не мог ждать."}}></p>
 
-                          <p>
-                                Его взгляд снова скользнул к отчужденной, 
-                                но удивительно милой незнакомке. Девушка все так же стояла в дверях, 
-                                наблюдая за его сотрудниками. У нее в руках не было бокала. И это нужно 
-                                исправить. Мужчина опять потер подбородок. Следующей задачей было слияние 
-                                с компанией «Спорта Ко» и удвоение объема продаж их спортивного оборудования. 
-                                Разумеется, было весьма рискованно предпринимать этот шаг так быстро, 
-                                но Рик не мог ждать.
-                          </p>
+                          <Link className="Link" to="WhatItIsKineziology" dangerouslySetInnerHTML={{__html:"Подробнее"}}></Link>
 
-                          <Link className="Link" to="WhatItIsKineziology">Подробнее</Link>
                         </div>
 
                   </div>
@@ -162,18 +146,11 @@ function Main(){
                   <div className="content_block revers">
                     <div className="text_two_block">
                       
-                      <h2>Немного о себе</h2>
+                      <h2 dangerouslySetInnerHTML={{__html:"Немного о себе"}}></h2>
 
-                      <p>
-                        Его взгляд снова скользнул к отчужденной, 
-                        но удивительно милой незнакомке. Девушка все 
-                        так же стояла в дверях, наблюдая за его сотрудниками. 
-                        У нее в руках не было бокала. И это нужно исправить.Мужчина опять потер 
-                        подбородок. Следующей задачей было слияние с компанией 
-                        «Спорта Ко» и удвоение объема продаж их спортивного оборудования. 
-                      </p>
+                      <p dangerouslySetInnerHTML={{__html:"Его взгляд снова скользнул к отчужденной, но удивительно милой незнакомке. Девушка все так же стояла в дверях, наблюдая за его сотрудниками. У нее в руках не было бокала. И это нужно исправить.Мужчина опять потер подбородок. Следующей задачей было слияние с компанией «Спорта Ко» и удвоение объема продаж их спортивного оборудования."}}></p>
 
-                      <Link className="Link" to="about">Подробнее</Link>
+                      <Link className="Link" to="about" dangerouslySetInnerHTML={{__html:"Подробнее"}}></Link>
 
                     </div>
                     <div className="img_two_block"></div>
@@ -189,7 +166,7 @@ function Main(){
 
                     <div className="cards-content-block">
 
-                      <div className="title_cards"><h2>Темы для работы</h2></div>
+                      <div className="title_cards"><h2 dangerouslySetInnerHTML={{__html:"Темы для работы"}}></h2></div>
                     
                       <div className="slider-content-block">
 
@@ -197,7 +174,7 @@ function Main(){
 
                       </div>
 
-                      <div className="more_cards"><Link className="Link" to="product">Подробнее</Link></div>
+                      <div className="more_cards"><Link className="Link" to="product" dangerouslySetInnerHTML={{__html:"Подробнее"}}></Link></div>
 
                     </div>
                   
@@ -207,15 +184,15 @@ function Main(){
                 <div className="block">
 
                 <div className="content-block-news">
-                  <div className="title-news"><h2>Мои новости</h2></div>
+                  <div className="title-news"><h2 dangerouslySetInnerHTML={{__html:"Мои новости"}}></h2></div>
 
                   <div className="field-card-news">
 
                           <div className="news-card col-span-1 laptop:col-span-2 " style={{background:'url(https://images.unsplash.com/photo-1504908892453-3cb0b90b5002?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
                             <div className="bg-gradient">
                               <div className="content-area">
-                                <h3 className="card-title-news">Title1</h3>
-                                <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                                <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title1"}}></h3>
+                                <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
                               </div>
                             </div>
                           </div>
@@ -223,8 +200,8 @@ function Main(){
                           <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1644232448481-a5e82f095196?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50) no-repeat', backgroundSize:'cover'}}>
                           <div className="bg-gradient">
                               <div className="content-area">
-                                <h3 className="card-title-news">Title2</h3>
-                                <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                                <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title2"}}></h3>
+                                <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
                               </div>
                             </div>
                           </div>
@@ -232,8 +209,8 @@ function Main(){
                           <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1610809027249-86c649feacd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
                             <div className="bg-gradient">
                               <div className="content-area">
-                                <h3 className="card-title-news">Title3</h3>
-                                <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                                <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title3"}}></h3>
+                                <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
                               </div>
                             </div>
                           </div>
@@ -241,8 +218,8 @@ function Main(){
                           <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1610555356070-d0efb6505f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50) no-repeat', backgroundSize:'cover'}}>
                             <div className="bg-gradient">
                               <div className="content-area">
-                                <h3 className="card-title-news">Title4</h3>
-                                <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                                <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title4"}}></h3>
+                                <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
                               </div>
                             </div>
                           </div>
@@ -250,25 +227,25 @@ function Main(){
                           <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1612676239016-41e2c92b8e06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
                               <div className="bg-gradient">
                                 <div className="content-area">
-                                  <h3 className="card-title-news">Title5</h3>
-                                  <p className="card-bodyText-news">adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas</p>
+                                  <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title5"}}></h3>
+                                  <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
                                 </div>
                             </div>
                           </div>
 
                   </div>
 
-                  <div className="more-news"><Link className="Link" to="news">Подробнее</Link></div>
+                  <div className="more-news"><Link className="Link" to="news" dangerouslySetInnerHTML={{__html:"Подробнее"}}></Link></div>
                 </div>
 
                 </div>
 
 
 
-                <div className="block">
+                <div className="block-top">
 
                 <div className="container-questions">
-                <h2>Часто задаваемые вопросы или просто ответы на термены</h2>
+                <h2 dangerouslySetInnerHTML={{__html:"Часто задаваемые вопросы или просто ответы на термены"}}></h2>
                   <div className="question-cards">
 
                     {Questions}
