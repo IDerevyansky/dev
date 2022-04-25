@@ -112,8 +112,8 @@ function Main(){
     return(
 
         <>
-        
-              <FirstBanner/>
+
+              <FirstBanner/> 
             
               <div className="container-general">
 
