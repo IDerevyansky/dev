@@ -2,7 +2,7 @@ import React from 'react';
 import CallBackLarge from '../callBalck/callBack_large';
 import './firstBanner.css';
 
-function FirstBanner(){
+function FirstBanner(props){
     return(
 
         <div className="main-container">
@@ -12,8 +12,8 @@ function FirstBanner(){
             <div className="side Right">
 
                 <div className="text-container">
-                    <h1 dangerouslySetInnerHTML={{__html:"Вам достаточно знать номер телефона данного человека."}}></h1>
-                    <p dangerouslySetInnerHTML={{__html:"Вам достаточно знать номер телефона данного человека, и вы можете создать ссылку, которая позволит начать с ним чат. Вам достаточно знать номер телефона данного человека, и вы можете создать ссылку, которая позволит начать с ним чат. "}}></p>
+                    <h1 dangerouslySetInnerHTML={{__html:props.title}}></h1>
+                    <p dangerouslySetInnerHTML={{__html:props.bodyText}}></p>
                 </div>  
             
               <CallBackLarge/>

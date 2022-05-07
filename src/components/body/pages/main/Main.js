@@ -10,85 +10,128 @@ import Accordion from "../../../accordion/Accordion";
 import FirstBanner from "../../../firstBanner/firstBanner";
 
 
-let data = {
-"card":[
-  {
-    "id":1,
-    "title":"Title1",
-    "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.",
-    "link":"111",
-  },
-  {
-    "id":2,
-    "title":"Title2",
-    "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?",
-    "link":"222",
-  },
-  {
-    "id":3,
-    "title":"Title3",
-    "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо.  Как бы то ни было, он быстро разгадает ее.",
-    "link":"333",
-  },
-  {
-    "id":4,
-    "title":"Title4",
-    "bodyText":"Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.",
-    "link":"444",
-  },
-  {
-    "id":5,
-    "title":"Title5",
-    "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо.",
-    "link":"555",
-  },
-  {
-    "id":6,
-    "title":"Title6",
-    "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?",
-    "link":"666",
-  }
-],
-"questions":[
-  {
-    "id":1,
-    "title":"title 1",
-    "bodyText":"qqqqqqqq",
-  },
-  {
-    "id":2,
-    "title":"title 2",
-    "bodyText":"wwwwwwwwww",
-  },
-  {
-    "id":3,
-    "title":"title 3",
-    "bodyText":"eeeeeeeeeee",
-  },
-  {
-    "id":4,
-    "title":"title 4",
-    "bodyText":"rrrrrrrrrrrr",
-  },
-]
+  let data = {
 
-};
+    "FirstBanner":{
+      "title":"Тут заголовок баннера",
+      "bodyText":"Вам достаточно знать номер телефона данного человека, и вы можете создать ссылку, которая позволит начать с ним чат. Вам достаточно знать номер телефона данного человека, и вы можете создать ссылку, которая позволит начать с ним чат."
+    },  
+    "product":{
+      "title":"Темы для работы",
+      "link":"product",
+      "more":"Подробнее",
+      "card":[
+        {
+          "id":1,
+          "title":"Title1",
+          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.",
+          "link":"111",
+        },
+        {
+          "id":2,
+          "title":"Title2",
+          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?",
+          "link":"222",
+        },
+        {
+          "id":3,
+          "title":"Title3",
+          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо.  Как бы то ни было, он быстро разгадает ее.",
+          "link":"333",
+        },
+        {
+          "id":4,
+          "title":"Title4",
+          "bodyText":"Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.",
+          "link":"444",
+        },
+        {
+          "id":5,
+          "title":"Title5",
+          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо.",
+          "link":"555",
+        },
+        {
+          "id":6,
+          "title":"Title6",
+          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?",
+          "link":"666",
+        },
+        {
+          "id":7,
+          "title":"Title7",
+          "bodyText":"77777 7777 777 7 7 7 77777 7 7 7777",
+          "link":"777",
+        },
+        {
+          "id":8,
+          "title":"Title8",
+          "bodyText":"888 888 8888 88888 888888 8888 8",
+          "link":"888",
+        },
+        {
+          "id":9,
+          "title":"Title9",
+          "bodyText":"999 9999 999 99999 99999999 999",
+          "link":"999",
+        }
+  
+      ]
+    },
+    "questions":[
+      {
+        "id":1,
+        "title":"title 1",
+        "bodyText":"qqqqqqqq",
+      },
+      {
+        "id":2,
+        "title":"title 2",
+        "bodyText":"wwwwwwwwww",
+      },
+      {
+        "id":3,
+        "title":"title 3",
+        "bodyText":"eeeeeeeeeee",
+      },
+      {
+        "id":4,
+        "title":"title 4",
+        "bodyText":"rrrrrrrrrrrr",
+      },
+    ],
+    "WhatItIsKineziology":{
+      "title":"Что нужно знать о кинезиологии",
+      "bodyText":"Он вкалывал все эти десять лет не для того, чтобы теперь замедлить ход к уже близкой победе. Я хочу поздравить вас всех с успешным завершением нашего дела – проект «Хинни и Смит» закончился очень удачно для всех нас. Теперь мы можем сами доставлять товары во все уголки страны, сокращая расходы и увеличивая прибыль.  – Рик поднял бокал с шампанским. – За замечательную команду с блестящим будущим! Он сделал глоток из бокала под гул всеобщего одобрения.<br/><br/> Его взгляд снова скользнул к отчужденной, но удивительно милой незнакомке. Девушка все так же стояла в дверях, наблюдая за его сотрудниками. У нее в руках не было бокала. И это нужно исправить. Мужчина опять потер подбородок. Следующей задачей было слияние с компанией «Спорта Ко» и удвоение объема продаж их спортивного оборудования. Разумеется, было весьма рискованно предпринимать этот шаг так быстро, но Рик не мог ждать.",
+      "more":"Подробнее",
+      "link":"WhatItIsKineziology"
+    },
+    "about":{
+      "title":"Немного о себе",
+      "bodyText":"Его взгляд снова скользнул к отчужденной, но удивительно милой незнакомке. Девушка все так же стояла в дверях, наблюдая за его сотрудниками. У нее в руках не было бокала. И это нужно исправить.Мужчина опять потер подбородок. Следующей задачей было слияние с компанией «Спорта Ко» и удвоение объема продаж их спортивного оборудования.",
+      "link":"about",
+      "more":"Подробнее"
+    }
+
+  };
 
 
+  let Cards = data.product.card.map((obj, i)=>{
 
+        if(i <= 5){
 
-let Cards = data.card.map((obj, i)=>{
+            return(
+              <Card 
+                key={i} 
+                title={obj.title} 
+                bodyText={obj.bodyText} 
+                link={obj.link}
+              /> 
+            )
 
-  return(
-    <Card 
-      key={i} 
-      title={obj.title} 
-      bodyText={obj.bodyText} 
-      link={obj.link}
-    /> 
-  )
+        }
 
-  });
+    });
 
 
   let Questions = data.questions.map((obj, i)=>{
@@ -113,7 +156,10 @@ function Main(){
 
         <>
 
-              <FirstBanner/>
+              <FirstBanner
+                title={data.FirstBanner.title}
+                bodyText={data.FirstBanner.bodyText}
+              />
             
               <div className="container-general">
 
@@ -125,13 +171,13 @@ function Main(){
                   <div className="content_block">
 
                         <div className="two-block_left">
-                          <h2 dangerouslySetInnerHTML={{__html:"Что нужно знать о кинезиологии"}}></h2>
+                          <h2 dangerouslySetInnerHTML={{__html:data.WhatItIsKineziology.title}}></h2>
                         </div>
                         <div className="two-block_right">
 
-                          <p dangerouslySetInnerHTML={{__html:"Он вкалывал все эти десять лет не для того, чтобы теперь замедлить ход к уже близкой победе. Я хочу поздравить вас всех с успешным завершением нашего дела – проект «Хинни и Смит» закончился очень удачно для всех нас. Теперь мы можем сами доставлять товары во все уголки страны, сокращая расходы и увеличивая прибыль.  – Рик поднял бокал с шампанским. – За замечательную команду с блестящим будущим! Он сделал глоток из бокала под гул всеобщего одобрения.<br/><br/> Его взгляд снова скользнул к отчужденной, но удивительно милой незнакомке. Девушка все так же стояла в дверях, наблюдая за его сотрудниками. У нее в руках не было бокала. И это нужно исправить. Мужчина опять потер подбородок. Следующей задачей было слияние с компанией «Спорта Ко» и удвоение объема продаж их спортивного оборудования. Разумеется, было весьма рискованно предпринимать этот шаг так быстро, но Рик не мог ждать."}}></p>
+                          <p dangerouslySetInnerHTML={{__html:data.WhatItIsKineziology.bodyText}}></p>
 
-                          <Link className="Link" to="WhatItIsKineziology" dangerouslySetInnerHTML={{__html:"Подробнее"}}></Link>
+                          <Link className="Link" to={data.WhatItIsKineziology.link} dangerouslySetInnerHTML={{__html:data.WhatItIsKineziology.more}}></Link>
 
                         </div>
 
@@ -146,11 +192,11 @@ function Main(){
                   <div className="content_block revers">
                     <div className="text_two_block">
                       
-                      <h2 dangerouslySetInnerHTML={{__html:"Немного о себе"}}></h2>
+                      <h2 dangerouslySetInnerHTML={{__html:data.about.title}}></h2>
 
-                      <p dangerouslySetInnerHTML={{__html:"Его взгляд снова скользнул к отчужденной, но удивительно милой незнакомке. Девушка все так же стояла в дверях, наблюдая за его сотрудниками. У нее в руках не было бокала. И это нужно исправить.Мужчина опять потер подбородок. Следующей задачей было слияние с компанией «Спорта Ко» и удвоение объема продаж их спортивного оборудования."}}></p>
+                      <p dangerouslySetInnerHTML={{__html:data.about.bodyText}}></p>
 
-                      <Link className="Link" to="about" dangerouslySetInnerHTML={{__html:"Подробнее"}}></Link>
+                      <Link className="Link" to={data.about.link} dangerouslySetInnerHTML={{__html:data.about.more}}></Link>
 
                     </div>
                     <div className="img_two_block"></div>
@@ -166,7 +212,7 @@ function Main(){
 
                     <div className="cards-content-block">
 
-                      <div className="title_cards"><h2 dangerouslySetInnerHTML={{__html:"Темы для работы"}}></h2></div>
+                      <div className="title_cards"><h2 dangerouslySetInnerHTML={{__html:data.product.title}}></h2></div>
                     
                       <div className="slider-content-block">
 
@@ -174,7 +220,7 @@ function Main(){
 
                       </div>
 
-                      <div className="more_cards"><Link className="Link" to="product" dangerouslySetInnerHTML={{__html:"Подробнее"}}></Link></div>
+                      <div className="more_cards"><Link className="Link" to={data.product.link} dangerouslySetInnerHTML={{__html:data.product.more}}></Link></div>
 
                     </div>
                   
