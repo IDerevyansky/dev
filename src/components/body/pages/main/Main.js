@@ -111,6 +111,43 @@ import FirstBanner from "../../../firstBanner/firstBanner";
       "bodyText":"Его взгляд снова скользнул к отчужденной, но удивительно милой незнакомке. Девушка все так же стояла в дверях, наблюдая за его сотрудниками. У нее в руках не было бокала. И это нужно исправить.Мужчина опять потер подбородок. Следующей задачей было слияние с компанией «Спорта Ко» и удвоение объема продаж их спортивного оборудования.",
       "link":"about",
       "more":"Подробнее"
+    },
+    "myNews":{
+      "title":"Мои новости",
+      "more":"Подробнее",
+      "link":"news",
+      "cardNews":[
+        {
+          "img":"https://images.unsplash.com/photo-1504908892453-3cb0b90b5002?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50",
+          "title":"Title1",
+          "shortText":"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas",
+          "link":"news/#"
+        },
+        {
+          "img":"https://images.unsplash.com/photo-1644232448481-a5e82f095196?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50",
+          "title":"Title2",
+          "shortText":"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas",
+          "link":"news/#"
+        },
+        {
+          "img":"https://images.unsplash.com/photo-1610809027249-86c649feacd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50",
+          "title":"Title3",
+          "shortText":"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas",
+          "link":"news/#"
+        },
+        {
+          "img":"https://images.unsplash.com/photo-1610555356070-d0efb6505f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50",
+          "title":"Title4",
+          "shortText":"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas",
+          "link":"news/#"
+        },
+        {
+          "img":"https://images.unsplash.com/photo-1612676239016-41e2c92b8e06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50",
+          "title":"Title5",
+          "shortText":"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas",
+          "link":"news/#"
+        }
+      ]
     }
 
   };
@@ -132,6 +169,48 @@ import FirstBanner from "../../../firstBanner/firstBanner";
         }
 
     });
+
+
+  let newsCard = data.myNews.cardNews.map((obj, i)=>{
+
+    if(i === 0){
+
+      return(
+
+        
+          <div className="news-card col-span-1 laptop:col-span-2" key={i} style={{background: 'url(' + obj.img + ') no-repeat', backgroundSize:'cover'}}>
+            <Link to={obj.link}>
+              <div className="bg-gradient">
+                <div className="content-area">
+                  <h3 className="card-title-news" dangerouslySetInnerHTML={{__html: obj.title}}></h3>
+                  <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html: obj.shortText}}></p>
+                </div>
+              </div>
+            </Link>
+          </div>
+
+      )
+
+    }else{
+
+      return(
+ 
+          <div className="news-card" key={i} style={{background:'url(' + obj.img + ') no-repeat', backgroundSize:'cover'}}>
+            <Link to={obj.link}> 
+            <div className="bg-gradient">
+                <div className="content-area">
+                  <h3 className="card-title-news" dangerouslySetInnerHTML={{__html: obj.title}}></h3>
+                  <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html: obj.shortText}}></p>
+                </div>
+            </div>
+            </Link>
+          </div>
+        
+        )
+
+    }
+
+  });
 
 
   let Questions = data.questions.map((obj, i)=>{
@@ -229,60 +308,17 @@ function Main(){
 
                 <div className="block">
 
-                <div className="content-block-news">
-                  <div className="title-news"><h2 dangerouslySetInnerHTML={{__html:"Мои новости"}}></h2></div>
+                  <div className="content-block-news">
+                    <div className="title-news"><h2 dangerouslySetInnerHTML={{__html:data.myNews.title}}></h2></div>
 
-                  <div className="field-card-news">
+                    <div className="field-card-news">
+                     
+                      {newsCard}  
+                      
+                    </div>
 
-                          <div className="news-card col-span-1 laptop:col-span-2 " style={{background:'url(https://images.unsplash.com/photo-1504908892453-3cb0b90b5002?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
-                            <div className="bg-gradient">
-                              <div className="content-area">
-                                <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title1"}}></h3>
-                                <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1644232448481-a5e82f095196?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50) no-repeat', backgroundSize:'cover'}}>
-                          <div className="bg-gradient">
-                              <div className="content-area">
-                                <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title2"}}></h3>
-                                <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1610809027249-86c649feacd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
-                            <div className="bg-gradient">
-                              <div className="content-area">
-                                <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title3"}}></h3>
-                                <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1610555356070-d0efb6505f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=50) no-repeat', backgroundSize:'cover'}}>
-                            <div className="bg-gradient">
-                              <div className="content-area">
-                                <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title4"}}></h3>
-                                <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="news-card" style={{background:'url(https://images.unsplash.com/photo-1612676239016-41e2c92b8e06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=50) no-repeat', backgroundSize:'cover'}}>
-                              <div className="bg-gradient">
-                                <div className="content-area">
-                                  <h3 className="card-title-news" dangerouslySetInnerHTML={{__html:"Title5"}}></h3>
-                                  <p className="card-bodyText-news" dangerouslySetInnerHTML={{__html:"adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas adsadas sd sadsad dasda sdasdasd sadasdasdasadsadas sd sadsad dasda sdasdasd sadasdasdas"}}></p>
-                                </div>
-                            </div>
-                          </div>
-
+                    <div className="more-news"><Link className="Link" to={data.myNews.link} dangerouslySetInnerHTML={{__html:data.myNews.more}}></Link></div>
                   </div>
-
-                  <div className="more-news"><Link className="Link" to="news" dangerouslySetInnerHTML={{__html:"Подробнее"}}></Link></div>
-                </div>
 
                 </div>
 
