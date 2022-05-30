@@ -1,0 +1,12 @@
+.top-banner{
+    @apply
+    w-full
+    h-[250px]
+    tablet:h-[350px]
+    laptop:h-[500px]
+    desktop:h-[500px]
+    bg-[#EBE9E3]
+    bg-no-repeat
+    bg-cover
+    bg-center
+}
