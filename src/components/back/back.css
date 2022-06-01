@@ -1,0 +1,18 @@
+.block-back{
+    @apply
+    /* bg-slate-500 */
+    pb-[32px]
+    w-full
+    flex
+    items-center
+    gap-[8px]
+    
+}
+
+.back-icon{
+    background-image: url('./img/back-icon.svg');
+    @apply
+    w-[30px]
+    h-[31px]
+    /* cursor-pointer */
+}

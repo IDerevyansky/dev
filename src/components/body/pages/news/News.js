@@ -3,6 +3,7 @@ import TopBanner from "../../../topBanner/topBanner";
 
 import './News.css';
 import news from './img/news.png';
+import Back from "../../../back/back";
 
 function News(){
     return(
@@ -12,9 +13,10 @@ function News(){
         <TopBanner
         img={news}
         />
-       
+        
         <div className="container-general">
-            <div className="block">
+            <div className="block-top">
+                <Back location='ru'/>
 
             </div>
         </div>

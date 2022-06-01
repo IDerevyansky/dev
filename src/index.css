@@ -67,3 +67,41 @@ h3{
     underline
     font-medium
 }
+
+.block{
+    @apply
+    
+    laptop:items-center
+    items-center
+
+    w-full
+    max-w-[1330px]
+    min-h-[80vh]
+    tablet:min-h-[100vh]
+
+    flex
+    flex-row
+
+    border
+    border-red-700
+
+}
+
+.block-top{
+    @apply
+    
+    laptop:items-start
+    items-start
+    py-[32px]
+    w-full
+    max-w-[1330px]
+    min-h-[50vh]
+    tablet:min-h-[50vh]
+
+    flex
+    flex-row
+
+    border
+    border-red-700
+
+}
