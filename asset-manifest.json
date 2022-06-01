@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/kinesiology/static/css/main.4f3360d3.css",
-    "main.js": "/kinesiology/static/js/main.0dc80636.js",
+    "main.css": "/kinesiology/static/css/main.20edcf27.css",
+    "main.js": "/kinesiology/static/js/main.a368d68d.js",
     "static/js/787.47073a56.chunk.js": "/kinesiology/static/js/787.47073a56.chunk.js",
-    "static/media/WhatItIsKineziology.png": "/kinesiology/static/media/WhatItIsKineziology.67782c00984af7f3de49.png",
+    "static/media/news.png": "/kinesiology/static/media/news.77c5dbc55ff444bf5e49.png",
+    "static/media/WhatItIsKineziology.png": "/kinesiology/static/media/WhatItIsKineziology.912478f01dd7ba4101ed.png",
     "static/media/img_mainV2_banner.jpg": "/kinesiology/static/media/img_mainV2_banner.8f828e2bbfe63e2da2f8.jpg",
+    "static/media/aBout.png": "/kinesiology/static/media/aBout.56cdf96e04e8ddbd28d9.png",
+    "static/media/product.png": "/kinesiology/static/media/product.d88f64a85cd4423ebfb7.png",
     "static/media/img_three_block.jpg": "/kinesiology/static/media/img_three_block.a8e531d8ed6fa1ca6f6b.jpg",
     "static/media/viber_dark.svg": "/kinesiology/static/media/viber_dark.b83ef0ebbe086da9bceee7b34e42ce43.svg",
     "static/media/btn_dark.svg": "/kinesiology/static/media/btn_dark.d70ed56b2e57b066eb645f985e3027cf.svg",
@@ -15,12 +18,12 @@
     "static/media/cross.svg": "/kinesiology/static/media/cross.c8bef2619ac1a3d04a2b.svg",
     "index.html": "/kinesiology/index.html",
     "static/media/Union.svg": "/kinesiology/static/media/Union.8ea424da7431f908be69.svg",
-    "main.4f3360d3.css.map": "/kinesiology/static/css/main.4f3360d3.css.map",
-    "main.0dc80636.js.map": "/kinesiology/static/js/main.0dc80636.js.map",
+    "main.20edcf27.css.map": "/kinesiology/static/css/main.20edcf27.css.map",
+    "main.a368d68d.js.map": "/kinesiology/static/js/main.a368d68d.js.map",
     "787.47073a56.chunk.js.map": "/kinesiology/static/js/787.47073a56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f3360d3.css",
-    "static/js/main.0dc80636.js"
+    "static/css/main.20edcf27.css",
+    "static/js/main.a368d68d.js"
   ]
 }
