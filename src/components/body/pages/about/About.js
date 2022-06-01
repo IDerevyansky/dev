@@ -1,23 +1,27 @@
 import React from 'react';
-import CallBackLarge from '../../../callBalck/callBack_large';
+import TopBanner from '../../../topBanner/topBanner';
 
 import './About.css';
+import aBout from './img/aBout.png';
 
 
 function About(){
     return(
-       <div className='testBlock'>
-           <div className="main">
+        
+    <>
 
+        <TopBanner
+        img={aBout}
+        />
+       
+        <div className="container-general">
+            <div className="block">
 
+            </div>
+        </div>
+   
+    </>
 
-            <CallBackLarge numPhone='true'/>
-
-
-
-
-           </div>
-       </div>
     );
 }
 

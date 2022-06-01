@@ -1,10 +1,10 @@
 .top-banner{
     @apply
     w-full
-    h-[250px]
-    tablet:h-[350px]
-    laptop:h-[500px]
-    desktop:h-[500px]
+    h-[20vh]
+    tablet:h-[25vh]
+    laptop:h-[30vh]
+    desktop:h-[30vh]
     bg-[#EBE9E3]
     bg-no-repeat
     bg-cover
