@@ -3,11 +3,12 @@ import TopBanner from '../../../topBanner/topBanner';
 
 import './About.css';
 import aBout from './img/aBout.png';
+import Back from '../../../back/back';
 
 
 function About(){
     return(
-        
+
     <>
 
         <TopBanner
@@ -15,7 +16,8 @@ function About(){
         />
        
         <div className="container-general">
-            <div className="block">
+            <div className="block-top">
+                 <Back location='ru'/>
 
             </div>
         </div>

@@ -20,6 +20,8 @@ import Menu from './components/menu/Menu';
 
 
 function App() {
+
+
   return (
 
       <>
@@ -29,14 +31,13 @@ function App() {
           <div className="body-container">
 
             <Routes>
-              <Route path="/" element={<Main/>} />
+              <Route path="/"  element={<Main/>} />
               <Route path="about" element={<About/>} />
               <Route path="product" element={<Product/>} />
               <Route path="doterra" element={<Doterra/>} />
               <Route path="WhatItIsKineziology" element={<WhatItIsKineziology/>} />
               <Route path="news" element={<News/>} />
             </Routes>
-
 
           </div>
 
@@ -48,3 +49,4 @@ function App() {
 }
 
 export default App;
+
