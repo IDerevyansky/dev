@@ -1,8 +1,11 @@
 import React from 'react';
+import { useEffect } from 'react/cjs/react.production.min';
 
 import './back.css';
 
+
 function Back(props){
+
     return(
 
         <>

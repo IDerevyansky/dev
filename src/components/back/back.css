@@ -2,6 +2,10 @@
     @apply
     /* bg-slate-500 */
     pb-[32px]
+    desktop:px-[0px]
+    laptop:px-[16px]
+    tablet:px-[16px]
+    px-[16px]
     w-full
     flex
     items-center
