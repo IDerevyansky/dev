@@ -14,13 +14,13 @@ body{
 
 p{
     @apply
-    text-gray-700
+    text-[#525862]
     subpixel-antialiased
 }
 
 h1{
     @apply
-    text-gray-700
+    text-[#525862]
     text-2xl
     subpixel-antialiased
     font-semibold
@@ -33,7 +33,7 @@ h1{
 
 h2{
     @apply
-    text-gray-700
+    text-[#525862]
     text-2xl
     subpixel-antialiased
     font-semibold
@@ -46,7 +46,7 @@ h2{
 
 h3{
     @apply
-    text-gray-700
+    text-[#525862]
     text-lg
     subpixel-antialiased
     font-semibold
@@ -62,7 +62,7 @@ h3{
 
 .appointment{
     @apply
-    text-gray-700
+    text-[#525862]
     subpixel-antialiased
     underline
     font-medium
@@ -99,9 +99,17 @@ h3{
     tablet:min-h-[50vh]
 
     flex
-    flex-row
+    flex-col
 
     border
     border-red-700
 
+}
+
+.adpt_m{
+    @apply
+    desktop:px-[0px]
+    laptop:px-[16px]
+    tablet:px-[16px]
+    px-[16px]
 }

@@ -20,3 +20,48 @@
     items-start
 }
 
+.content-aBout{
+    @apply
+    mt-[24px]
+    flex
+    flex-col
+    desktop:flex-row
+    laptop:flex-row
+    tablet:flex-col
+    gap-[24px]
+    w-full
+}
+
+
+.lil-slider{
+    @apply
+    rounded-[16px]
+    w-full
+    desktop:min-w-[320px]
+    laptop:min-w-[320px]
+    tablet:w-full
+    h-[400px]
+    /* bg-[#F1F0EB] */
+    
+    relative 
+    flex 
+    gap-6 
+    snap-x 
+    snap-mandatory 
+    overflow-x-auto 
+
+}
+
+
+.img-container{
+    @apply
+    rounded-[16px]
+    bg-[#F1F0EB]
+    /* w-[320px] */
+    w-[320px]
+    h-full
+    overflow-hidden
+    snap-center 
+    scroll-mx-0 
+    shrink-0
+}
