@@ -25,7 +25,7 @@ const back = () => navigate(-1);
             <div onClick={back} className='block-back'>
 
                     <div className='back-icon'></div>
-                    <p>{props.location != 'ru'? 'Back' : 'Назад'}</p>
+                    <p dangerouslySetInnerHTML={{__html:props.location != 'ru'? 'Back' : 'Назад'}}></p>
 
             </div>
            

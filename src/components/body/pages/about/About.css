@@ -47,3 +47,28 @@
     gap-[16px]
     my-[8px]
 }
+
+.bgDarkColor{
+    @apply
+    bg-[#F5F3ED]
+    w-full
+}
+
+.eduaction-block{
+    @apply
+    grid 
+    grid-cols-3
+    w-full
+    gap-[48px]
+}
+
+.bg-img-edu{
+    @apply
+    bg-slate-500
+}
+
+.cont-edu{
+    @apply
+    bg-red-500
+    col-span-2
+}

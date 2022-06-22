@@ -37,6 +37,13 @@ const data = {
                 "link":"www.vk.com/#"
             }
         ]
+    },
+    "Education":{
+        "title":"Образование",
+        "bodyText":"------",
+        "img":[
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Moscow_State_University_crop.jpg/2560px-Moscow_State_University_crop.jpg"
+        ]
     }
 };
 
@@ -56,13 +63,11 @@ const data = {
         <div className="container-general">
             <div className="block-top adpt_m">
                     <Back location='ru'/>
-                    <h1>{data.About.title}</h1>
+                    <h1 dangerouslySetInnerHTML={{__html:data.About.title}}></h1>
 
                     <div className='content-aBout'>
 
-                        <p>
-                            {data.About.text}
-                        </p>
+                        <p dangerouslySetInnerHTML={{__html:data.About.text}}></p>
 
                         <LilSlider
                             listImg={data.About.img}
@@ -78,11 +83,25 @@ const data = {
                             <img src={faceBook}></img>
                             <img src={instagram}></img>
                             <img src={vk}></img>
-                            
+
                         </div>
 
                     </div> 
             </div>
+
+            <div className="container-general bgDarkColor">    
+                <div className="block-top adpt_m">
+                <h1 dangerouslySetInnerHTML={{__html:data.Education.title}}></h1>
+                    <div className='eduaction-block'>
+                        <div className='bg-img-edu'>werwere</div>
+                        <div className='cont-edu'>
+                            <p dangerouslySetInnerHTML={{__html:data.Education.bodyText}}></p>
+                        </div>
+                    </div>
+
+                </div>        
+            </div>
+
         </div>
    
     </>
