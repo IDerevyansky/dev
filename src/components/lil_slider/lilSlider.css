@@ -14,7 +14,7 @@
     snap-x 
     snap-mandatory 
     overflow-x-auto 
-    -z-10
+    /* -z-[1] */
 
 }
 

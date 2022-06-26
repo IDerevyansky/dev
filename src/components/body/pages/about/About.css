@@ -57,18 +57,30 @@
 .eduaction-block{
     @apply
     grid 
-    grid-cols-3
+    
+    laptop:grid-cols-3
+    laptop:grid-rows-1
+    
     w-full
-    gap-[48px]
+    laptop:gap-[48px]
+    gap-[24px]
+    mt-[24px]
+    mb-[56px]
 }
 
 .bg-img-edu{
     @apply
-    bg-slate-500
+    /* bg-slate-500 */
+    col-span-2
+    row-span-1
+    laptop:col-span-1
+    /* rounded-md
+    overflow-auto */
 }
 
 .cont-edu{
     @apply
-    bg-red-500
+    /* bg-red-500 */
     col-span-2
+    laptop:col-span-2
 }

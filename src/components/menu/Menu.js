@@ -11,7 +11,14 @@ function Menu(){
     const [visibleMenu, setVisibleMenu] = useState('menu_hidden');
     const [BlurOffset, setBlurOffset] = useState(0);
 
-    let data = [{name:"Обо мне", link:"about"}, {name:"Кинезиология", link:"WhatItIsKineziology"}, {name:"Продукты", link:"product"}, {name:"Масла Doterra", link:"doterra"},{name:"Новости", link:"news"}];
+    let data = [
+        {name:"Обо мне", link:"about"}, 
+        {name:"Кинезиология", link:"WhatItIsKineziology"}, 
+        {name:"Продукты", link:"product"}, 
+        {name:"Масла Doterra", link:"doterra"},
+        {name:"Новости", link:"news"}
+    ];
+    
     let items = data.map((item, key, arr) => <Link key={key} onClick={() => toggle()} to={item.link} className="text-style-items">{item.name}</Link> );
 
     let toggle = () => {

@@ -6,6 +6,15 @@ import WItIsK from './img/WhatItIsKineziology.png';
 import Back from "../../../back/back";
 
 function WhatItIsKineziology(){
+
+let data = {
+    "h1":"Что нужно знать о кинезиологии",
+    "p":"-"
+};
+
+
+
+
     return(
         <>
 
@@ -14,8 +23,10 @@ function WhatItIsKineziology(){
             />
            
             <div className="container-general">
-                <div className="block-top">
+                <div className="block-top adpt_m red">
                     <Back location='ru'/>
+                   <h1 className="mb-[24px]">czxczxczxczx</h1>
+                   <p>sdfdfsdfsdfsdfs</p>
 
                 </div>
             </div>
