@@ -82,8 +82,8 @@ h3{
     flex
     flex-row
 
-    border
-    border-red-700
+    /* border
+    border-red-700 */
 
 }
 
@@ -101,8 +101,8 @@ h3{
     flex
     flex-col
 
-    border
-    border-red-700
+    /* border
+    border-red-700 */
 
 }
 

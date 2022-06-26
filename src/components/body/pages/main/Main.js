@@ -16,68 +16,6 @@ import FirstBanner from "../../../firstBanner/firstBanner";
       "title":"Тут заголовок баннера",
       "bodyText":"Вам достаточно знать номер телефона данного человека, и вы можете создать ссылку, которая позволит начать с ним чат. Вам достаточно знать номер телефона данного человека, и вы можете создать ссылку, которая позволит начать с ним чат."
     },  
-    "product":{
-      "title":"Темы для работы",
-      "link":"product",
-      "more":"Подробнее",
-      "card":[
-        {
-          "id":1,
-          "title":"Title1",
-          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.",
-          "link":"111",
-        },
-        {
-          "id":2,
-          "title":"Title2",
-          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?",
-          "link":"222",
-        },
-        {
-          "id":3,
-          "title":"Title3",
-          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо.  Как бы то ни было, он быстро разгадает ее.",
-          "link":"333",
-        },
-        {
-          "id":4,
-          "title":"Title4",
-          "bodyText":"Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.",
-          "link":"444",
-        },
-        {
-          "id":5,
-          "title":"Title5",
-          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо.",
-          "link":"555",
-        },
-        {
-          "id":6,
-          "title":"Title6",
-          "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?",
-          "link":"666",
-        },
-        {
-          "id":7,
-          "title":"Title7",
-          "bodyText":"77777 7777 777 7 7 7 77777 7 7 7777",
-          "link":"777",
-        },
-        {
-          "id":8,
-          "title":"Title8",
-          "bodyText":"888 888 8888 88888 888888 8888 8",
-          "link":"888",
-        },
-        {
-          "id":9,
-          "title":"Title9",
-          "bodyText":"999 9999 999 99999 99999999 999",
-          "link":"999",
-        }
-  
-      ]
-    },
     "questions":[
       {
         "id":1,
@@ -151,24 +89,6 @@ import FirstBanner from "../../../firstBanner/firstBanner";
     }
 
   };
-
-
-  let Cards = data.product.card.map((obj, i)=>{
-
-        if(i <= 5){
-
-            return(
-              <Card 
-                key={i} 
-                title={obj.title} 
-                bodyText={obj.bodyText} 
-                link={obj.link}
-              /> 
-            )
-
-        }
-
-    });
 
 
   let newsCard = data.myNews.cardNews.map((obj, i)=>{
@@ -285,26 +205,8 @@ function Main(){
                 </div>
 
 
+                <Card/>
 
-                <div className="block">
-
-
-                    <div className="cards-content-block">
-
-                      <div className="title_cards"><h2 dangerouslySetInnerHTML={{__html:data.product.title}}></h2></div>
-                    
-                      <div className="slider-content-block">
-
-                        {Cards}
-
-                      </div>
-
-                      <div className="more_cards"><Link className="Link" to={data.product.link} dangerouslySetInnerHTML={{__html:data.product.more}}></Link></div>
-
-                    </div>
-                  
-
-                </div>
 
                 <div className="block">
 
