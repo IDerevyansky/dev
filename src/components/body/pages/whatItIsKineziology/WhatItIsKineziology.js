@@ -14,9 +14,6 @@ let data = {
 };
 
 
-
-console.log(data);
-
     return(
         <>
 

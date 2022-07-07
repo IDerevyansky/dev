@@ -1,0 +1,57 @@
+.container-slider{
+    @apply
+    flex
+    flex-col
+    laptop:flex-row
+    w-full
+    gap-[32px]
+
+}
+
+.slederImg{
+    @apply
+    bg-slate-400
+    laptop:w-[50%]
+    w-full
+    h-[400px]
+    rounded-[10px]
+    flex
+    justify-end
+    bg-cover 
+    bg-center
+    bg-no-repeat
+    overflow-hidden
+}
+
+.contenText{
+    @apply
+    bg-red-400
+    laptop:w-[50%]
+    w-full
+   
+}
+
+.navigateBox{
+    @apply
+    flex
+    flex-row
+    gap-[16px]
+    p-[24px]
+    items-end
+}
+
+.btnNav{
+    background-image: url(./img/btn-slider.svg);
+
+    @apply
+    bg-[#F5F3ED]
+    w-[32px]
+    h-[32px]
+    rounded-[99px]
+    bg-no-repeat
+    bg-center
+    cursor-pointer
+    active:scale-95
+    hover:opacity-100
+    opacity-90
+}
