@@ -14,7 +14,6 @@ function Slider(props){
         }else{
             num<=0?num=props.date.length-1:num--;
         }
-        
         console.log(props.date[num]);
         setSlide(props.date[num]);
     }
