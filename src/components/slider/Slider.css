@@ -10,7 +10,7 @@
 
 .slederImg{
     @apply
-    bg-slate-400
+    bg-[#EBE9E3]
     laptop:w-[50%]
     w-full
     h-[400px]
