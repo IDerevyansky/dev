@@ -4,37 +4,30 @@ import "./Slider.css";
 
 function Slider(props){
 
-    let [slide, setSlide] = useState(props.date[0]);
+    let [count, setCount] = useState(0);
 
-    let num = 0;
-    let toggle_slide = (q) => {
-
-        if(q=='forward'){
-            num>=props.date.length-1?num=0:num++;
-        }else{
-            num<=0?num=props.date.length-1:num--;
-        }
-        console.log(props.date[num]);
-        setSlide(props.date[num]);
-    }
-
-
+    
     return(
+
 
     <div className='container-slider'>
                         
-        <div className="slederImg" style={{backgroundImage: "url("+slide.urlImg+")"}}>
+        <div className="slederImg" style={{backgroundImage: "url("+props.date[count].urlImg+")"}}>
 
-           <div className='navigateBox'>
-                <div className='btnNav rotate-0' onClick={()=>toggle_slide('backward')}></div>
-                <div className='btnNav rotate-180' onClick={()=>toggle_slide('forward')}></div>
-           </div>
+            <div className='navigateBox'>
+                    <div className='btnNav rotate-0' onClick={()=>setCount(count<=0?count=props.date.length-1:--count)}></div>
+                    <div className='btnNav rotate-180' onClick={()=>setCount(count>=props.date.length-1?count=0:++count)}></div>
+            </div>
 
         </div>
 
-        <div className='contenText'>dfsdfsd</div>
+        <div className='contenText' >
+            <h3  className='mb-[8px]' dangerouslySetInnerHTML={{__html:props.date[count].description.title}}></h3>
+            <p dangerouslySetInnerHTML={{__html:props.date[count].description.text}}></p>
+        </div>
 
     </div>
+
 
 
     );

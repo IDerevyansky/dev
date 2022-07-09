@@ -21,11 +21,13 @@
     bg-center
     bg-no-repeat
     overflow-hidden
+    duration-1000 
+    transition
 }
 
 .contenText{
     @apply
-    bg-red-400
+    /* bg-red-400 */
     laptop:w-[50%]
     w-full
    
@@ -54,4 +56,5 @@
     active:scale-95
     hover:opacity-100
     opacity-90
+    select-none
 }

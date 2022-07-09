@@ -55,20 +55,32 @@ const data = {
         "title":"Мои дипломы",
         "img":[
             {
-            "description":"0",
-            "urlImg":"https://images.unsplash.com/photo-1656248394039-dceee71a24f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            "description":{
+                "title":"Диплом 1", 
+                "text":"Диплом отличгика"
+            },
+            "urlImg":"https://images.unsplash.com/photo-1568124924590-969ea0925fcc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
             },
             {
-            "description":"1",
-            "urlImg":"https://images.unsplash.com/photo-1648737964965-7eda17871196?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            "description":{
+                "title":"Диплом 2", 
+                "text":"Он вкалывал все эти десять лет не для того, чтобы теперь замедлить ход к уже близкой победе. Я хочу поздравить вас всех с успешным завершением нашего дела – проект «Хинни и Смит» закончился очень удачно для всех нас. Теперь мы можем сами доставлять товары во все уголки страны, сокращая расходы и увеличивая прибыль.  – Рик поднял бокал с шампанским. – За замечательную команду с блестящим будущим! Он сделал глоток из бокала под гул всеобщего одобрения."
+            },
+            "urlImg":"https://images.unsplash.com/photo-1568057373484-69bbc440c02e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
             },
             {
-            "description":"2",
-            "urlImg":"https://images.unsplash.com/photo-1656143340430-6b215e97357d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            "description":{
+                "title":"Диплом 3", 
+                "text":"Диплом всем дипломом диплом"
+            },
+            "urlImg":"https://images.unsplash.com/photo-1638636241638-aef5120c5153?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
             },
             {
-            "description":"3",
-            "urlImg":"https://images.unsplash.com/photo-1656016552212-a4ba4884d308?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            "description":{
+                "title":"Диплом 4", 
+                "text":"Высших сил диплом"
+            },
+            "urlImg":"https://images.unsplash.com/photo-1584445584400-1a7cc5de77ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=920&q=80"
             }
         ]
     }
