@@ -37,6 +37,7 @@ function App() {
               <Route path="/"  element={<Main/>} />
               <Route path="about" element={<About/>} />
               <Route path="product" element={<Product/>} />
+              <Route path="product/:id" element={<About/>} />
               <Route path="doterra" element={<Doterra/>} />
               <Route path="WhatItIsKineziology" element={<WhatItIsKineziology/>} />
               <Route path="news" element={<News/>} />
