@@ -14,13 +14,56 @@
     overflow-x-auto
 }
 
-.gardNews{
+.cardNews{
     @apply
     bg-slate-400
     rounded-[16px]
     w-[75vw]
     laptop:w-auto
     bg-center
+    grid
+    grid-rows-2
+    overflow-hidden
+}
+
+.cardNewsContent{
+    @apply
+    row-start-2
+    px-[40px]
+    pb-[32px]
+    flex
+    flex-col
+    justify-between    
+
+}
+
+.cardNewsContentHead{
+    @apply
+    flex
+    flex-col
+    gap-[8px]
+
+}
+
+.p-Three-Line{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+
+    @apply
+    text-[#F7F5EF]
+}
+
+.h2-Two-Line{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+
+    @apply
+    text-[#F7F5EF]
+
 }
 
 .block-2-3{
