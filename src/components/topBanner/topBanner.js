@@ -6,7 +6,7 @@ function TopBanner(props){
 
 
     <div 
-        className="top-banner" 
+        className={props.view == 'news'?"newsPage-top-banner":"top-banner"} 
         style={{backgroundImage:'url('+props.img+')'}}
     >
 

@@ -258,7 +258,7 @@ data.news.map((item, index)=>{
                      {poseted}
 
                     </div>
-                    <div onClick={()=>{setNumPosts(numPosts + 10)}}>Show more</div>
+                    <div className="BtnShowMore" onClick={()=>{setNumPosts(numPosts + 10)}} dangerouslySetInnerHTML={{__html:'Показать ещё'}}></div>
                 </div>
 
             </div>

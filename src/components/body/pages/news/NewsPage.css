@@ -1,0 +1,12 @@
+.newsPage-top-banner{
+    @apply
+    w-full
+    h-[40vh]
+    tablet:h-[45vh]
+    laptop:h-[50vh]
+    desktop:h-[50vh]
+    bg-[#EBE9E3]
+    bg-no-repeat
+    bg-cover
+    bg-center
+}

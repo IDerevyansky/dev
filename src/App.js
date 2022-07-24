@@ -14,6 +14,7 @@ import About from './components/body/pages/about/About';
 import Product from './components/body/pages/product/Product';
 import WhatItIsKineziology from './components/body/pages/whatItIsKineziology/WhatItIsKineziology';
 import News from './components/body/pages/news/News';
+import NewsPage from './components/body/pages/news/NewsPage';
 import Doterra from './components/body/pages/doterra/Doterra';
 
 import Footer from './components/footer/Footer';
@@ -41,7 +42,7 @@ function App() {
               <Route path="doterra" element={<Doterra/>} />
               <Route path="WhatItIsKineziology" element={<WhatItIsKineziology/>} />
               <Route path="news" element={<News/>} />
-              <Route path="news/:idPost" element={<News/>} />
+              <Route path="news/:idPost" element={<NewsPage/>} />
             </Routes>
 
           </div>
