@@ -22,7 +22,6 @@ function MainProductCard(props){
                 </div>
                 <div className={stateAccordion?'visible body_qu-card':'hidden body_qu-card'}>
                     <p className="qu-text-color" dangerouslySetInnerHTML={{__html:'Here product text'}}></p>
-                    аваыаваы
                 </div>
             </div>
         </>

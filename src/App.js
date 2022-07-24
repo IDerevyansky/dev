@@ -41,6 +41,7 @@ function App() {
               <Route path="doterra" element={<Doterra/>} />
               <Route path="WhatItIsKineziology" element={<WhatItIsKineziology/>} />
               <Route path="news" element={<News/>} />
+              <Route path="news/:idPost" element={<News/>} />
             </Routes>
 
           </div>
