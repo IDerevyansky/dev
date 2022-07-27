@@ -1,0 +1,20 @@
+.ShortNewsBlock{
+    @apply
+    w-full
+    laptop:h-auto
+    h-auto
+    gap-[16px]
+    laptop:gap-6
+    grid
+    desktop:px-[0px]
+    laptop:px-[16px]
+    tablet:px-[16px]
+    px-[16px]
+    laptop:grid-cols-3
+    /* laptop:grid-rows-3 */
+    /* grid-cols-7 */
+    grid-rows-1
+    grid-flow-col
+    overflow-x-auto
+}
+
