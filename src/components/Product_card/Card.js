@@ -13,60 +13,61 @@ function Card(props){
           "title":"Темы для работы",
           "link":"/product",
           "more":"Подробнее",
+          "appointment":"Записаться",
           "card":[
             {
               "id":1,
               "title":"Title1",
               "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.",
-              "link":"111",
+              "link":"product/111",
             },
             {
               "id":2,
               "title":"Title2",
               "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?",
-              "link":"222",
+              "link":"product/222",
             },
             {
               "id":3,
               "title":"Title3",
               "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо.  Как бы то ни было, он быстро разгадает ее.",
-              "link":"333",
+              "link":"product/333",
             },
             {
               "id":4,
               "title":"Title4",
               "bodyText":"Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда? Как бы то ни было, он быстро разгадает ее.",
-              "link":"444",
+              "link":"product/444",
             },
             {
               "id":5,
               "title":"Title5",
               "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо.",
-              "link":"555",
+              "link":"product/555",
             },
             {
               "id":6,
               "title":"Title6",
               "bodyText":"Он знал всех своих сотрудников – если не по имени, то хотя бы в лицо. Интересно, эта девушка была новой сотрудницей или просто случайно заглянула сюда?",
-              "link":"666",
+              "link":"product/666",
             },
             {
               "id":7,
               "title":"Title7",
               "bodyText":"77777 7777 777 7 7 7 77777 7 7 7777",
-              "link":"777",
+              "link":"product/777",
             },
             {
               "id":8,
               "title":"Title8",
               "bodyText":"888 888 8888 88888 888888 8888 8",
-              "link":"888",
+              "link":"product/888",
             },
             {
               "id":9,
               "title":"Title9",
               "bodyText":"999 9999 999 99999 99999999 999",
-              "link":"999",
+              "link":"product/999",
             }
       
           ]
@@ -80,7 +81,7 @@ let Product_card = (key, h3, p, link) => {
     return(
 
 
-        <div key={key} className="card">
+        <Link to={link} key={key} className="card">
 
             <div className="header-block">
         
@@ -89,9 +90,9 @@ let Product_card = (key, h3, p, link) => {
         
             </div>
         
-            <div className="footer-block"><Link className="appointment" to={link}>Записаться</Link></div>
+            <div className="footer-block"><div className="appointment" dangerouslySetInnerHTML={{__html:data.product.appointment}}></div></div>
 
-        </div>
+        </Link>
 
 
     )
