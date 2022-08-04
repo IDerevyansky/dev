@@ -1,17 +1,58 @@
 .containerCards{
     @apply
-    border
-    border-red-700
+    /* border
+    border-red-700 */
     w-full
-    h-[50vh]
-    grid
-    grid-cols-3
-    grid-rows-2
+    /* h-[50vh] */
+    flex
+    flex-col
+    gap-[16px]
 }
 
+.section{
+    @apply
+    /* border */
+    /* border-green-600 */
+    w-full
+    h-[600px]
+    laptop:h-[300px]
+    gap-[16px]
+}
 
+.sectionOne{
+    @apply
+    grid
+    desktop:grid-cols-2
+    laptop:grid-cols-2
+    laptop:grid-rows-1
+    tablet:grid-rows-2
+    tablet:grid-cols-1
+}
 
+.sectionTwo{
+    @apply
+    grid
+    desktop:grid-cols-3
+    desktop:grid-rows-1
+    laptop:grid-cols-3
+    laptop:grid-rows-1
+    tablet:grid-rows-3
+}
 
+.sectionTree{
+    @apply
+    grid
+    desktop:grid-cols-3
+    desktop:grid-rows-1
+    laptop:grid-cols-3
+    laptop:grid-rows-1
+    tablet:grid-rows-3
+}
+
+.rounded{
+    @apply
+    rounded-lg
+}
 
 
 .bg-red{

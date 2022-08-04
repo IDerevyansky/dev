@@ -6,17 +6,33 @@ function MainProductCard(props){
 
     return(
 
-        <div className="containerCards">
+        <>
 
+            <h1 className="mb-[24px]" dangerouslySetInnerHTML={{__html:"Задница"}}></h1>
 
+                <div className="containerCards">
 
+                    <div className="section sectionOne">
+                        <div className="rounded bg-red"></div>
+                        <div className="rounded bg-red"></div>
+                    </div>
 
-            <div className="bg-red col-span-2"></div>
-            <div className="bg-green"></div>
-            <div className="bg-grey"></div>
+                    <div className="section sectionTwo">
+                        <div className="rounded bg-green"></div>
+                        <div className="rounded bg-green"></div>
+                        <div className="rounded bg-green"></div>
+                    </div>
 
-        </div>
-           
+                    <div className="section sectionTree">
+                        <div className="rounded bg-grey"></div>
+                        <div className="rounded bg-grey"></div>
+                        <div className="rounded bg-grey"></div>
+                    </div>
+
+                </div>
+
+        </>
+
     );
 }
 
