@@ -1,0 +1,32 @@
+.container_product{
+    @apply
+    grid
+    grid-cols-3
+    gap-[24px]
+    w-full
+    h-[400px]
+}
+
+.propduct_img{
+    @apply
+    rounded-xl
+}
+
+.propduct_content{
+    @apply
+    flex
+    flex-col
+    gap-[24px]
+}
+
+.product_contacts{
+
+}
+
+.details{
+    @apply
+    flex
+    flex-col
+    gap-[8px]
+}
+

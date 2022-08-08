@@ -11,7 +11,6 @@ import ShortNewsBlock from "./ShortNewsBlock";
 function NewsPage(){
 
     
-
 console.log(useParams().idPost);
 
 let data = {

@@ -22,7 +22,7 @@ const back = () => navigate(-1);
 
         <>
 
-            <div onClick={back} className='block-back'>
+            <div onClick={back} className='block-back cursor-pointer'>
 
                     <div className='back-icon'></div>
                     <p dangerouslySetInnerHTML={{__html:props.location != 'ru'? 'Back' : 'Назад'}}></p>

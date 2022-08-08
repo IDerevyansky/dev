@@ -24,7 +24,6 @@
     @apply
     w-auto
     laptop:w-2/3
-    /* bg-slate-400 */
 
     px-[16px]
     laptop:px-[16px]
@@ -49,9 +48,6 @@
     gap-4
     laptop:gap-10
 
-
-    /* border
-    /* border-green-700 */
 }
 
 .img_two_block{
@@ -62,9 +58,7 @@
     h-[640px]
     bg-cover
     bg-center
-/* 
-    border
-    /* border-red-700 */
+
     laptop:w-1/2
     w-auto
 
@@ -99,8 +93,6 @@
 
 .cards-content-block{
     @apply
-    /* border
-    border-gray-500 */
 
     w-full
     flex
@@ -126,12 +118,11 @@
     @apply
     pl-4
     desktop:pl-0
-    /* border */
+
 }
 
 .more_cards{
     @apply
-    /* border */
     text-center
 }
 
@@ -168,13 +159,6 @@
     min-h-[300px]
     overflow-y-hidden
 
-    /* border */
-    /* border-red-700 */
-
-
-    /* grid
-    grid-flow-col
-    laptop:grid-rows-2 */
   
 }
 
