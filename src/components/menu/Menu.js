@@ -15,7 +15,7 @@ function Menu(){
         {name:"Обо мне", link:"about"}, 
         {name:"Кинезиология", link:"WhatItIsKineziology"}, 
         {name:"Продукты", link:"product"}, 
-        {name:"Масла Doterra", link:"doterra"},
+        // {name:"Масла Doterra", link:"doterra"},
         {name:"Новости", link:"news"}
     ];
     
